@@ -1,2 +1,1 @@
-# artisawesm
-Newly designed personal website
+# Newly designed personal website
