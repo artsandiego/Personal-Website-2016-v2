@@ -11,7 +11,7 @@ $(document).ready(function(){
     });
 
     // ===============================
-    // BACKGROUND INTRO
+    // MOVING BACKGROUND
     // ===============================
     var movementStrength = 25;
     var height = movementStrength / $(window).height();

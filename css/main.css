@@ -112,15 +112,15 @@
 }
 
 #top-image {
-  background: url("../img/svg/bg_static.svg") -25px -50px;
+  background: url("../img/svg/bg_dynamic.svg") no-repeat -25px -50px;
   z-index: 1;
-  background-size: calc(100% + 50px);
+  background-size: cover;
 }
 
 #back-image {
-  background: url("../img/svg/bg_dynamic.svg") -25px -50px;
+  background: url("../img/svg/bg_static.svg") no-repeat -25px -50px;
   z-index: 0;
-  background-size: calc(100% + 50px);
+  background-size: cover;
 }
 
 #toTypeString {

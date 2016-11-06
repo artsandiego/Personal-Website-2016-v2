@@ -56,7 +56,7 @@
 }
 
 // ===============================
-// BACKGROUND INTRO
+// MOVING BACKGROUND
 // ===============================
 .background-image{
     position: fixed;
@@ -67,32 +67,27 @@
 
 #top-image {
     @extend .background-image;
-    background: url($topImagePath) -25px -50px;
+    background: url($topImagePath) no-repeat -25px -50px;
     z-index: 1;
-    background-size: calc(100% + 50px);
+    background-size: cover;
 }
 
 #back-image {
     @extend .background-image;
-    background: url($backImagePath) -25px -50px;
+    background: url($backImagePath) no-repeat -25px -50px;
     z-index: 0;
-    background-size: calc(100% + 50px);
+    background-size: cover;
 }
+
+// ===============================
+// TYPED
+// ===============================
 
 #toTypeString{
     display: none;
 }
 
 .centerString{
-    // height: 50%;
-    // width: auto;
-    // position: absolute;
-    // top: 0;
-    // bottom: 0;
-    // left: 0;
-    // right: 0;
-    // margin: auto;
-    // text-align: center;
     display: inline;
     width: 50%;
     margin: 0 auto;
