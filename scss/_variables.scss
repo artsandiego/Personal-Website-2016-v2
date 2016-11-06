@@ -1,0 +1,44 @@
+//fonts
+@font-face {
+    font-family: "bebasBold";
+    src: url("../fonts/bebasneue/BebasNeue Bold.otf");
+}
+
+@font-face {
+    font-family: "bebasBook";
+    src: url("../fonts/bebasneue/BebasNeue Book.otf");
+}
+
+@font-face {
+    font-family: "bebasLight";
+    src: url("../fonts/bebasneue/BebasNeue Light.otf");
+}
+
+@font-face {
+    font-family: "bebasRegular";
+    src: url("../fonts/bebasneue/BebasNeue Regular.otf");
+}
+
+@font-face {
+    font-family: "bebasThin";
+    src: url("../fonts/bebasneue/BebasNeue Thin.otf");
+}
+
+$bBold: "bebasBold";
+$bBook: "bebasBook";
+$bLight: "bebasLight";
+$bRegular: "bebasRegular";
+$bThin: "bebasThin";
+
+//colors
+$dark: #1d2426;
+$light: #eef3f5;
+$accent: #9e2525;
+
+//path
+$topImagePath: "../img/svg/bg_static.svg";
+$backImagePath: "../img/svg/bg_dynamic.svg";
+
+//values
+$staticFontSize: 155px;
+$dynamicFontSize: 45px;

@@ -1,0 +1,83 @@
+<!-- REFERENCE -->
+<!-- http://codepen.io/PaulVanO/pen/GgGeyE -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Artisawesm | Portfolio</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/jquery.fullPage.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- ================================ -->
+        <div id="toTypeString">
+            <p>Aspiring <span class="emp">Front end web developer</span></p>
+            <p><span class="emp">Web | Graphic designer</span> wanna be</p>
+            <p>this is my <span class="emp">Story.</span></p>
+        </div>
+
+        <div class="button_container" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+
+        <div class="overlay" id="overlay">
+          <nav class="overlay-menu">
+            <ul>
+              <li ><a href="#intro">Intro</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- ================================ -->
+
+        <div id="fullpage">
+            <div class="section" id="intro-section">
+                <div class="container-fluid">
+
+                    <div id="top-image"></div>
+                    <div id="back-image"></div>
+
+                    <div class="centerString">
+                        <span class="staticString">Hello, I'm <span class="emp">Art</span></span><br/>
+                        <span id="typedString"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="skills-section">
+                <div class="contaner-fluid">
+                    <div class="row">
+                        <div class="col-md-9" id="skillsLightSide">
+                            <h1>Light Side</h1>
+                        </div>
+                        <div class="col-md-3" id="skillsDarkSide">
+                            <h1>Dark Side</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/vendor/angular.min.js"></script>
+        <script type="text/javascript" src="js/vendor/typed.js"></script>
+        <script type="text/javascript" src="js/vendor/scrolloverflow.min.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery.fullPage.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
