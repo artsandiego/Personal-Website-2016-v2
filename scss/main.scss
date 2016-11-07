@@ -1,6 +1,24 @@
 @import "partials/variables";
 @import "partials/mixins";
 
+// ===============================
+// SCROLL BAR | SELECTION
+// ===============================
+*::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.5em;
+    background: $dark;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: $accent;
+}
+
+*::selection{
+    color: $accent;
+    opacity: .5;
+}
+
 @media only screen and (max-width: 320px) {
     body {
         font-size: 2em;
@@ -14,45 +32,63 @@
 
 #skills-section{
     background: $light;
-    #skillsLightSide{
-        color: $dark;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-    }
-    #skillsDarkSide{
-        color: $light;
-        background: $dark;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
+    z-index: 1;
+    #containMe{
+        #side-by-side{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            padding: 15px 15px;
+        }
+
+        #light-side{
+            @extend #side-by-side;
+            background: $light;
+            color: $dark;
+            // width: 60%;
+            left: 0;
+        }
+
+        #dark-side{
+            @extend #side-by-side;
+            background: $dark;
+            color: $light;
+            // width: 40%;
+            right: 0;
+            overflow: scroll;
+        }
     }
 }
 
 // ===============================
-// TYPED
+// HEADER
 // ===============================
-.typed-cursor{
-    opacity: 1;
-    font-size: $dynamicFontSize;
+// &::first-letter {
+//     color: $accent;
+// }
+
+#awesm-header{
+    font-family: $bBook;
+    margin: 8px 8px;
+    cursor: pointer;
+    padding: 0em 0.2em;
+    display: inline-block;
+    line-height: 1em;
+    font-size: 8vmin;
+}
+
+#awesm-header-dark {
+    @extend #awesm-header;
     color: $light;
-    position: relative;
-    top: -5px;
-    @include animation(blink, 0.7s, infinite);
+    background: $dark;
+    opacity: 0;
 }
 
-@include keyframes{
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+#awesm-header-light {
+    @extend #awesm-header;
+    color: $dark;
+    background: $light;
+    opacity: 0;
 }
 
 // ===============================
@@ -82,6 +118,27 @@
 // ===============================
 // TYPED
 // ===============================
+.typed-cursor{
+    opacity: 1;
+    font-size: $dynamicFontSize;
+    color: $light;
+    position: relative;
+    top: -5px;
+    @include animation(blink, 0.7s, infinite);
+}
+
+@include keyframes{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 #toTypeString{
     display: none;
 }
@@ -121,10 +178,11 @@
   width: 50px;
   cursor: pointer;
   z-index: 100;
-  transition: opacity .25s ease;
+  transition: opacity 1s ease;
+  opacity: .3;
 
   &:hover {
-    opacity: .7;
+    opacity: 1;
   }
 
   &.active {
@@ -292,25 +350,108 @@
 }
 
 // ===============================
-// CIRCLE
+// SKILLS CIRCLE
 // ===============================
-#circle{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background: $accent;
-    overflow: hidden;
+#skills-circle{
 
-    //ANIMATION
-    // animation-duration: 1s;
-    // animation-delay: 2s;
-    // animation-iteration-count: infinite;
+    #base{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background: $dark;
+        cursor: pointer;
+    }
 
-    #fill{
+    #base-fill{
         position: relative;
         height: 100px;
         width: 100px;
-        background: $dark;
+        background: $accent;
         top: 100%;
+        opacity: 0.9;
+        cursor: pointer;
     }
+
+    #html{
+        @extend #base;
+        background-image: url(../img/svg/logo_html.svg);
+        overflow: hidden;
+
+        #fill{
+        @extend #base-fill;
+        }
+    }
+
+    #sass{
+        @extend #base;
+        background-image: url(../img/svg/logo_sass.svg);
+        overflow: hidden;
+
+        #fill{
+        @extend #base-fill;
+        }
+    }
+
+    #jquery{
+        @extend #base;
+        background-image: url(../img/svg/logo_jquery.svg);
+        overflow: hidden;
+
+        #fill{
+        @extend #base-fill;
+        }
+    }
+
+    #js{
+        @extend #base;
+        background-image: url(../img/svg/logo_js.svg);
+        overflow: hidden;
+
+        #fill{
+        @extend #base-fill;
+        }
+    }
+
+    #angular{
+        @extend #base;
+        background-image: url(../img/svg/logo_angular.svg);
+        overflow: hidden;
+
+        #fill{
+        @extend #base-fill;
+        }
+    }
+
 }
+
+
+
+
+/* ---- grid ---- */
+
+.grid {
+  max-width: 2000px;
+  position: relative;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: $dark;
+  border: 1px solid $light;
+}
+
+.grid-item--width2 { width: 200px; }
+.grid-item--height2 { height: 200px; }
+
+/* ---- .grid-item ---- */

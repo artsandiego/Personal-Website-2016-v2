@@ -18,33 +18,92 @@
   font-family: "bebasThin";
   src: url("../fonts/bebasneue/BebasNeue Thin.otf");
 }
+*::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+  background: #131819;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #9e2525;
+}
+
+*::selection {
+  color: #9e2525;
+  opacity: .5;
+}
+
 @media only screen and (max-width: 320px) {
   body {
     font-size: 2em;
   }
 }
 #intro-section {
-  background: #1d2426;
+  background: #131819;
   text-align: center;
 }
 
 #skills-section {
   background: #eef3f5;
+  z-index: 1;
 }
-#skills-section #skillsLightSide {
-  color: #1d2426;
+#skills-section #containMe #side-by-side, #skills-section #containMe #light-side, #skills-section #containMe #dark-side {
   position: absolute;
   top: 0;
   bottom: 0;
+  padding: 15px 15px;
+}
+#skills-section #containMe #light-side {
+  background: #eef3f5;
+  color: #131819;
   left: 0;
 }
-#skills-section #skillsDarkSide {
+#skills-section #containMe #dark-side {
+  background: #131819;
   color: #eef3f5;
-  background: #1d2426;
-  position: absolute;
-  top: 0;
-  bottom: 0;
   right: 0;
+  overflow: scroll;
+}
+
+#awesm-header, #awesm-header-dark, #awesm-header-light {
+  font-family: "bebasBook";
+  margin: 8px 8px;
+  cursor: pointer;
+  padding: 0em 0.2em;
+  display: inline-block;
+  line-height: 1em;
+  font-size: 8vmin;
+}
+
+#awesm-header-dark {
+  color: #eef3f5;
+  background: #131819;
+  opacity: 0;
+}
+
+#awesm-header-light {
+  color: #131819;
+  background: #eef3f5;
+  opacity: 0;
+}
+
+.background-image, #top-image, #back-image {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#top-image {
+  background: url("../img/svg/bg_dynamic.svg") no-repeat -25px -50px;
+  z-index: 1;
+  background-size: cover;
+}
+
+#back-image {
+  background: url("../img/svg/bg_static.svg") no-repeat -25px -50px;
+  z-index: 0;
+  background-size: cover;
 }
 
 .typed-cursor {
@@ -104,25 +163,6 @@
     opacity: 1;
   }
 }
-.background-image, #top-image, #back-image {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-
-#top-image {
-  background: url("../img/svg/bg_dynamic.svg") no-repeat -25px -50px;
-  z-index: 1;
-  background-size: cover;
-}
-
-#back-image {
-  background: url("../img/svg/bg_static.svg") no-repeat -25px -50px;
-  z-index: 0;
-  background-size: cover;
-}
-
 #toTypeString {
   display: none;
 }
@@ -156,10 +196,11 @@
   width: 50px;
   cursor: pointer;
   z-index: 100;
-  transition: opacity .25s ease;
+  transition: opacity 1s ease;
+  opacity: .3;
 }
 .button_container:hover {
-  opacity: .7;
+  opacity: 1;
 }
 .button_container.active .top {
   transform: translateY(10px) translateX(0) rotate(45deg);
@@ -276,7 +317,7 @@
 .overlay ul li a {
   display: block;
   position: relative;
-  color: #1d2426;
+  color: #131819;
   text-decoration: none;
   overflow: hidden;
 }
@@ -291,7 +332,7 @@
   width: 0%;
   transform: translateX(-50%);
   height: 3px;
-  background: #1d2426;
+  background: #131819;
   transition: .35s;
 }
 
@@ -305,19 +346,73 @@
     left: 0;
   }
 }
-#circle {
+#skills-circle #base, #skills-circle #html, #skills-circle #sass, #skills-circle #jquery, #skills-circle #js, #skills-circle #angular {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background: #9e2525;
-  overflow: hidden;
+  background: #131819;
+  cursor: pointer;
 }
-#circle #fill {
+#skills-circle #base-fill, #skills-circle #html #fill, #skills-circle #sass #fill, #skills-circle #jquery #fill, #skills-circle #js #fill, #skills-circle #angular #fill {
   position: relative;
   height: 100px;
   width: 100px;
-  background: #1d2426;
+  background: #9e2525;
   top: 100%;
+  opacity: 0.9;
+  cursor: pointer;
 }
+#skills-circle #html {
+  background-image: url(../img/svg/logo_html.svg);
+  overflow: hidden;
+}
+#skills-circle #sass {
+  background-image: url(../img/svg/logo_sass.svg);
+  overflow: hidden;
+}
+#skills-circle #jquery {
+  background-image: url(../img/svg/logo_jquery.svg);
+  overflow: hidden;
+}
+#skills-circle #js {
+  background-image: url(../img/svg/logo_js.svg);
+  overflow: hidden;
+}
+#skills-circle #angular {
+  background-image: url(../img/svg/logo_angular.svg);
+  overflow: hidden;
+}
+
+/* ---- grid ---- */
+.grid {
+  max-width: 2000px;
+  position: relative;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+.grid-item {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #131819;
+  border: 1px solid #eef3f5;
+}
+
+.grid-item--width2 {
+  width: 200px;
+}
+
+.grid-item--height2 {
+  height: 200px;
+}
+
+/* ---- .grid-item ---- */
 
 /*# sourceMappingURL=main.css.map */

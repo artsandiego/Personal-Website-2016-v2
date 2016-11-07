@@ -3,95 +3,162 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <meta name="description" content="Interactive Résumé of Artemio A. San Diego | Web Developer">
-        <meta name="author" content="Artemio A. San Diego | November 2016">
-        <title>Artisawesm | Portfolio</title>
-        <link rel="shortcut icon" type="image/png" href="img/png/artsandiego.png">
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <!-- <link rel="stylesheet" href="css/vendor/bootstrap.min.css"> -->
-        <!-- <link rel="stylesheet" href="css/vendor/font-awesome.min.css"> -->
-        <link rel="stylesheet" href="css/vendor/jquery.fullPage.css">
-        <link rel="stylesheet" href="css/vendor/animate.css">
-        <link rel="stylesheet" href="css/main.css">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Interactive Résumé of Artemio A. San Diego | Web Developer">
+    <meta name="author" content="Artemio A. San Diego | November 2016">
+    <title>Artisawesm | Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="img/png/artsandiego.png">
 
-        <!--[if lt IE 9]>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="css/vendor/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/vendor/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="css/vendor/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/vendor/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-    </head>
-    <body>
-        <!-- ================================ -->
-        <div id="toTypeString">
-            <p>Aspiring <span class="emp">Front end web developer</span></p>
-            <p><span class="emp">Web | Graphic designer</span> wanna be</p>
-            <p>this is my <span class="emp">Story.</span></p>
-        </div>
+</head>
 
-        <div class="button_container" id="toggle">
-            <span class="top"></span>
-            <span class="middle"></span>
-            <span class="bottom"></span>
-        </div>
+<body>
+    <!-- ================================ -->
+    <div id="toTypeString">
+        <p>Aspiring <span class="emp">Front end web developer</span></p>
+        <p><span class="emp">Web | Graphic designer</span> wanna be</p>
+        <p>this is my <span class="emp">Story.</span></p>
+    </div>
 
-        <div class="overlay" id="overlay">
-          <nav class="overlay-menu">
+    <div class="button_container" id="toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
             <ul>
-              <li ><a href="#intro">Intro</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Contact</a></li>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-          </nav>
-        </div>
+        </nav>
+    </div>
 
-        <!-- ================================ -->
+    <!-- ================================ -->
 
-        <div id="fullpage">
-            <div class="section" id="intro-section">
+    <div id="fullpage">
+        <div class="section" id="intro-section">
 
-                <div id="top-image"></div>
-                <div id="back-image"></div>
+            <div id="top-image"></div>
+            <div id="back-image"></div>
 
-                <div class="container-fluid">
-                    <div class="centerString">
-                        <span class="staticString">Hello, I'm <span class="emp">Art</span></span><br/>
-                        <span id="typedString"></span>
-                    </div>
+            <div class="container-fluid">
+                <div class="centerString">
+                    <span class="staticString">Hello, I'm <span class="emp">Art</span></span><br/>
+                    <span id="typedString"></span>
                 </div>
             </div>
-            <div class="section" id="skills-section">
-                <div class="contaner-fluid">
-                    <div class="row">
-                        <div class="col-xs-6 col-sm-6 col-md-9 col-lg-9" id="skillsLightSide">
-                            <h1>Light Side</h1>
+        </div>
+        <div class="section" id="skills-section">
+            <div class="container-fluid" id="containMe">
+                <div class="row">
+                    <div class="col-xs-8 col-md-7" id="light-side">
+                        <h1 id="awesm-header-dark">Skills | Interests</h1>
+                        <div class="grid" id="skills-circle">
+                          <div class="grid-item grid-item--width2 grid-item--height2"><div id="html"><div id="fill"></div></div></div>
+                          <div class="grid-item"></div>
+                          <div class="grid-item"></div>
+                          <div class="grid-item"></div>
+                          <div class="grid-item"></div>
+                          <div class="grid-item"></div>
+                          <div class="grid-item"></div>
+                          <div class="grid-item"></div>
+                          <div class="grid-item"></div>
+                          <div class="grid-item"></div>
+                          <div class="grid-item"></div>
+                          <div class="grid-item"></div>
+                          <div class="grid-item"></div>
+                          <div class="grid-item"></div>
+                          <div class="grid-item"></div>
+                        </div>
+                    </div>
 
-                            <div id="circle" class="">
-                                <div id="fill"></div>
+                    <div class="col-xs-4 col-md-5" id="dark-side">
+                        <h1 id="awesm-header-light">Description</h1>
+                    </div>
+                </div>
+                <!-- <div class="row"> -->
+                    <!-- <div class="col-xs-8 col-md-7" id="light-side"> -->
+                        <!-- <h1 id="awesm-header-dark">Skills | Interests</h1> -->
+
+                        <!-- <div class="grid" id="skills-circle">
+                          <div class="grid-item"><div id="html"><div id="fill"></div></div></div>
+                          <div class="grid-item"><div id="sass"><div id="fill"></div></div></div>
+                          <div class="grid-item"><div id="jquery"><div id="fill"></div></div></div>
+                          <div class="grid-item"><div id="js"><div id="fill"></div></div></div>
+                          <div class="grid-item"><div id="angular"><div id="fill"></div></div></div>
+                        </div> -->
+
+                        <!-- <div class="row" id="skills-circle">
+                            <div class="col-md-2">
+                                <div id="html"><div id="fill"></div></div>
                             </div>
+                            <div class="col-md-2">
+                                <div id="sass"><div id="fill"></div></div>
+                            </div>
+                            <div class="col-md-2">
+                                <div id="jquery"><div id="fill"></div></div>
+                            </div>
+                            <div class="col-md-2">
+                                <div id="js"><div id="fill"></div></div>
+                            </div>
+                            <div class="col-md-2">
+                                <div id="angular"><div id="fill"></div></div>
+                            </div>
+                        </div> -->
 
-                        </div>
-                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3" id="skillsDarkSide">
-                            <h1>Dark Side</h1>
-                        </div>
-                    </div>
-                </div>
+                    <!-- </div> -->
+                    <!-- <div class="col-xs-4 col-md-5" id="dark-side">
+                        <h1 id="awesm-header-light">Description</h1>
+                    </div> -->
+                <!-- </div> -->
+                    <!-- <div id="light-side">
+                          <h1 class="awesm-header">Skills | Interests</h1>
+                          <div id="circle">
+                              <div id="fill"></div>
+                          </div>
+                      </div>
+                      <div id="dark-side">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </div> -->
             </div>
         </div>
+    </div>
 
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <!-- <script type="text/javascript" src="js/vendor/jquery-3.1.1.min.js"></script> -->
-        <!-- <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script> -->
-        <script type="text/javascript" src="js/vendor/angular.min.js"></script>
-        <script type="text/javascript" src="js/vendor/typed.js"></script>
-        <script type="text/javascript" src="js/vendor/scrolloverflow.min.js"></script>
-        <script type="text/javascript" src="js/vendor/jquery.fullPage.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-    </body>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+    <!-- <script type="text/javascript" src="js/vendor/jquery-3.1.1.min.js"></script> -->
+    <!-- <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script> -->
+    <script type="text/javascript" src="js/vendor/angular.min.js"></script>
+    <script type="text/javascript" src="js/vendor/typed.js"></script>
+    <script type="text/javascript" src="js/vendor/scrolloverflow.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.fullPage.min.js"></script>
+    <!-- <script type="text/javascript" src="js/vendor/jquery.parallax.min.js"></script> -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
 </html>

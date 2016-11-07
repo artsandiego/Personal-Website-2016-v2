@@ -30,9 +30,10 @@ $(document).ready(function(){
     $("#fullpage").fullpage({
         anchors: ['intro', 'skills'],
         loopBottom: true,
-        navigation: true,
-        navigationPosition: 'right',
-        navigationTooltips: ['INTRO', 'SKILLS'],
+        // navigation: true,
+        // navigationPosition: 'right',
+        // navigationTooltips: ['INTRO', 'SKILLS'],
+        scrollBar: true
     });
 
     // ===============================
@@ -44,16 +45,56 @@ $(document).ready(function(){
     });
 
     // ===============================
-    // CIRCLE
+    // SKILLS CIRCLE
     // ===============================
-    $("#circle").hover(function() {
-        var vendorPrefAnim = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
-        $("#fill").animate({
-            top: "20%" //<-- SET THE VALUE IN %
-        }, 1000);
-        $(this).addClass('animated shake');
-        // $(this).one(vendorPrefAnim, function(){
-        //     $(this).removeClass('animated shake');
-        // });
+    // var vendorPrefAnim = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
+    $('.grid').isotope({
+      itemSelector: '.grid-item',
+      masonry: {
+        columnWidth: 100
+      }
+    });
+
+    $("#html").hover(function() {
+        $("#html>#fill").animate({
+            top: "30%" //<-- SET THE VALUE IN % LOWER VALUE MEANS HIGHER FILL
+        }, 1500);
+    });
+
+    $("#sass").hover(function() {
+        $("#sass>#fill").animate({
+            top: "50%" //<-- SET THE VALUE IN % LOWER VALUE MEANS HIGHER FILL
+        }, 1500);
+    });
+
+    $("#jquery").hover(function() {
+        $("#jquery>#fill").animate({
+            top: "60%" //<-- SET THE VALUE IN % LOWER VALUE MEANS HIGHER FILL
+        }, 1500);
+    });
+
+    $("#js").hover(function() {
+        $("#js>#fill").animate({
+            top: "80%" //<-- SET THE VALUE IN % LOWER VALUE MEANS HIGHER FILL
+        }, 1500);
+    });
+
+    $("#angular").hover(function() {
+        $("#angular>#fill").animate({
+            top: "90%" //<-- SET THE VALUE IN % LOWER VALUE MEANS HIGHER FILL
+        }, 1500);
+    });
+
+    // ===============================
+    // SCROLL DETECT
+    // ===============================
+    $(this).scroll(function () {
+        var headerD = "#awesm-header-dark";
+        var headerL = "#awesm-header-light";
+        var y = $(this).scrollTop();
+        if (y > 500) {
+            $(headerD).addClass('animated fadeInLeftBig');
+            $(headerL).addClass('animated fadeInRightBig');
+        }
     });
 });

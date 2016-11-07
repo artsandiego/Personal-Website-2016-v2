@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="mockup" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="-549.543 481.018 100 100" enable-background="new -549.543 481.018 100 100"
+	 xml:space="preserve">
+<g id="about">
+	<g id="logo">
+	</g>
+</g>
+<g id="skills">
+	<g id="low_poly" display="none" opacity="0.3">
+	</g>
+	<g id="cordova">
+	</g>
+	<g id="laravel">
+	</g>
+	<g id="swift">
+	</g>
+	<g id="java_1_">
+		<circle fill="#131819" cx="-499.543" cy="531.019" r="50"/>
+		<g>
+			<path fill="#EEF3F5" d="M-478.647,537.381c-0.403-1.207-0.883-2.367-1.384-3.424c-3.693,3.389-11.701,6.137-21.531,6.137
+				c-9.832,0-18.953-1.754-22.646-5.143c-1.325,2.799-1.389,5.281-1.389,8.543c0,12.461,10.76,22.564,24.034,22.564
+				c8.725,0,16.363-4.367,20.573-10.896c4.883-0.43,13.424-4.949,14.119-9.375C-466.037,540.488-473.875,537.559-478.647,537.381z
+				 M-479.045,551.391c0.977-2.457,1.513-5.119,1.513-7.896c0-1.08-0.13-2.18-0.351-3.273c3.451,0.143,7.492,1.473,7.492,4.832
+				C-470.391,548.521-475.637,550.721-479.045,551.391z"/>
+			<path fill="#EEF3F5" d="M-496.282,495.977c0,0-26.402,8.311-20.012,20.031s16.155,15.414,11.813,19.818
+				c-4.339,4.402,12.71-5.967,2.98-17.9C-511.231,505.992-496.282,495.977-496.282,495.977z"/>
+			<path fill="#EEF3F5" d="M-492.863,506.34c0,0-8.594,4.098-6.514,9.877c2.08,5.777,5.258,7.598,3.846,9.77s4.136-2.941,0.97-8.826
+				C-497.729,511.277-492.863,506.34-492.863,506.34z"/>
+		</g>
+	</g>
+	<g id="android">
+	</g>
+	<g id="git">
+	</g>
+	<g id="ps">
+	</g>
+	<g id="ai">
+	</g>
+	<g id="mysql_1_">
+	</g>
+	<g id="php">
+	</g>
+	<g id="angular">
+	</g>
+	<g id="js">
+	</g>
+	<g id="jquery">
+	</g>
+	<g id="sass_2_">
+	</g>
+	<g id="html">
+	</g>
+	<g id="context">
+		<g id="header">
+		</g>
+		<g id="sidetext">
+		</g>
+	</g>
+</g>
+<g id="intro">
+</g>
+</svg>

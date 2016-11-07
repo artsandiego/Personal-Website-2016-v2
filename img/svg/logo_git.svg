@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="mockup" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="-428.042 351.018 100 100" enable-background="new -428.042 351.018 100 100"
+	 xml:space="preserve">
+<g id="about">
+	<g id="logo">
+	</g>
+</g>
+<g id="skills">
+	<g id="low_poly" display="none" opacity="0.3">
+	</g>
+	<g id="cordova">
+	</g>
+	<g id="laravel">
+	</g>
+	<g id="swift">
+	</g>
+	<g id="java_1_">
+	</g>
+	<g id="android">
+	</g>
+	<g id="git">
+		<circle id="skills_9_" fill="#131819" cx="-378.042" cy="401.019" r="50"/>
+		<polygon fill="#EEF3F5" points="-352.589,414.246 -353.943,415.602 -376.507,393.035 -376.507,381.886 -387.545,381.886 
+			-405.813,363.674 -412.692,370.414 -396.884,386.281 -396.884,400.518 -391.644,400.518 -391.644,424.971 -394.266,424.971 
+			-394.266,438.361 -380.272,438.361 -380.272,424.971 -382.91,424.971 -382.91,400.518 -382.185,400.518 -360.659,422.178 
+			-362.056,423.645 -352.859,432.877 -343.392,423.426 		"/>
+	</g>
+	<g id="ps">
+	</g>
+	<g id="ai">
+	</g>
+	<g id="mysql_1_">
+	</g>
+	<g id="php">
+	</g>
+	<g id="angular">
+	</g>
+	<g id="js">
+	</g>
+	<g id="jquery">
+	</g>
+	<g id="sass_2_">
+	</g>
+	<g id="html">
+	</g>
+	<g id="context">
+		<g id="header">
+		</g>
+		<g id="sidetext">
+		</g>
+	</g>
+</g>
+<g id="intro">
+</g>
+</svg>
