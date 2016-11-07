@@ -1,5 +1,5 @@
-@import "variables";
-@import "mixins";
+@import "partials/variables";
+@import "partials/mixins";
 
 @media only screen and (max-width: 320px) {
     body {
@@ -82,7 +82,6 @@
 // ===============================
 // TYPED
 // ===============================
-
 #toTypeString{
     display: none;
 }
@@ -290,4 +289,28 @@
     opacity: 1;
     left: 0;
   }
+}
+
+// ===============================
+// CIRCLE
+// ===============================
+#circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: $accent;
+    overflow: hidden;
+
+    //ANIMATION
+    // animation-duration: 1s;
+    // animation-delay: 2s;
+    // animation-iteration-count: infinite;
+
+    #fill{
+        position: relative;
+        height: 100px;
+        width: 100px;
+        background: $dark;
+        top: 100%;
+    }
 }

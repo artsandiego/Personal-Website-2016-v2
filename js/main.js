@@ -13,7 +13,7 @@ $(document).ready(function(){
     // ===============================
     // MOVING BACKGROUND
     // ===============================
-    var movementStrength = 25;
+    var movementStrength = 35;
     var height = movementStrength / $(window).height();
     var width = movementStrength / $(window).width();
     $("#top-image").mousemove(function(e) {
@@ -41,5 +41,19 @@ $(document).ready(function(){
     $("#toggle").click(function() {
         $(this).toggleClass("active");
         $('#overlay').toggleClass('open');
+    });
+
+    // ===============================
+    // CIRCLE
+    // ===============================
+    $("#circle").hover(function() {
+        var vendorPrefAnim = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
+        $("#fill").animate({
+            top: "20%" //<-- SET THE VALUE IN %
+        }, 1000);
+        $(this).addClass('animated shake');
+        // $(this).one(vendorPrefAnim, function(){
+        //     $(this).removeClass('animated shake');
+        // });
     });
 });

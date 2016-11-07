@@ -305,5 +305,19 @@
     left: 0;
   }
 }
+#circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #9e2525;
+  overflow: hidden;
+}
+#circle #fill {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background: #1d2426;
+  top: 100%;
+}
 
 /*# sourceMappingURL=main.css.map */
