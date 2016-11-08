@@ -1,0 +1,243 @@
+#skills-circle{
+    $baseHeight: 80px;
+    $baseWidth: 80px;
+
+    #base {
+        height: $baseHeight;
+        width: $baseWidth;
+        border-radius: 50%;
+        background: $dark;
+        cursor: pointer;
+        display: inline-block;
+        margin: 1px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    #base-fill {
+        position: relative;
+        height: $baseHeight;
+        width: $baseWidth;
+        background: $accent;
+        top: 100%;
+        opacity: 0.9;
+        cursor: pointer;
+    }
+
+    #full {
+        height: $baseHeight * 2;
+        width: $baseWidth * 2;
+    }
+
+    #html-container {
+        opacity: 0;
+        @include delay(0.7s);
+
+        #html {
+            @extend #base, #full;
+            background-image: url($imageHtml);
+
+            #fill {
+                @extend #base-fill, #full;
+            }
+        }
+    }
+
+    #sass-container {
+        opacity: 0;
+        @include delay(0.8s);
+
+        #sass {
+            @extend #base, #full;
+            background-image: url($imageSass);
+
+            #fill {
+                @extend #base-fill, #full;
+            }
+        }
+    }
+
+    #jquery-container {
+        opacity: 0;
+        @include delay(0.9s);
+
+        #jquery {
+            @extend #base;
+            background-image: url($imageJquery);
+
+            #fill {
+                @extend #base-fill;
+            }
+        }
+    }
+
+    #js-container {
+        opacity: 0;
+        @include delay(1s);
+
+        #js {
+            @extend #base;
+            background-image: url($imageJs);
+
+            #fill {
+                @extend #base-fill;
+            }
+        }
+    }
+
+    #angular-container {
+        opacity: 0;
+        @include delay(1.1s);
+
+        #angular {
+            @extend #base, #full;
+            background-image: url($imageAngular);
+
+            #fill {
+                @extend #base-fill, #full;
+            }
+        }
+    }
+
+    #php-container {
+        opacity: 0;
+        @include delay(1.2s);
+
+        #php {
+            @extend #base;
+            background-image: url($imagePhp);
+
+            #fill {
+                @extend #base-fill;
+            }
+        }
+    }
+
+    #mysql-container {
+        opacity: 0;
+        @include delay(1.3s);
+
+        #mysql {
+            @extend #base;
+            background-image: url($imageMysql);
+
+            #fill {
+                @extend #base-fill;
+            }
+        }
+    }
+
+    #git-container {
+        opacity: 0;
+        @include delay(1.4s);
+
+        #git {
+            @extend #base;
+            background-image: url($imageGit);
+
+            #fill {
+                @extend #base-fill;
+            }
+        }
+    }
+
+    #ai-container {
+        opacity: 0;
+        @include delay(1.5s);
+
+        #ai {
+            @extend #base, #full;
+            background-image: url($imageAi);
+
+            #fill {
+                @extend #base-fill, #full;
+            }
+        }
+    }
+
+    #ps-container {
+        opacity: 0;
+        @include delay(1.6s);
+
+        #ps {
+            @extend #base;
+            background-image: url($imagePs);
+
+            #fill {
+                @extend #base-fill;
+            }
+        }
+    }
+
+    #cordova-container {
+        opacity: 0;
+        @include delay(1.7s);
+
+        #cordova {
+            @extend #base, #full;
+            background-image: url($imageCordova);
+
+            #fill {
+                @extend #base-fill, #full;
+            }
+        }
+    }
+
+    #java-container {
+        opacity: 0;
+        @include delay(1.8s);
+
+        #java {
+            @extend #base;
+            background-image: url($imageJava);
+
+            #fill {
+                @extend #base-fill;
+            }
+        }
+    }
+
+    #laravel-container {
+        opacity: 0;
+        @include delay(1.9s);
+
+        #laravel {
+            @extend #base;
+            background-image: url($imageLaravel);
+
+            #fill {
+                @extend #base-fill;
+            }
+        }
+    }
+
+    #swift-container {
+        opacity: 0;
+        @include delay(2s);
+
+        #swift {
+            @extend #base, #full;
+            background-image: url($imageSwift);
+
+            #fill {
+                @extend #base-fill, #full;
+            }
+        }
+    }
+
+    #android-container {
+        opacity: 0;
+        @include delay(1.8s);
+
+        #android {
+            @extend #base, #full;
+            background-image: url($imageAndroid);
+
+            #fill {
+                @extend #base-fill, #full;
+            }
+        }
+    }
+}

@@ -1,13 +1,27 @@
-$(document).ready(function(){
+// ===============================
+// SCROLL DETECT
+// ===============================
+// var vendorPrefAnim = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
+// $skillCircleChildren.one(vendorPrefAnim, function(){
+//     $skillCircleChildren.removeClass('animated bounceIn');
+// });
+//
+// $(this).scroll(function () {
+//     var $y = $(this).topScroll();
+//     if ($y > 500) {
+//     }
+// });
+
+$(document).ready(function() {
     // ===============================
     // TYPED
     // ===============================
     $("#typedString").typed({
         stringsElement: $('#toTypeString'),
-        typeSpeed: 20,
-        backDelay: 1000,
+        typeSpeed: 10,
+        backDelay: 700,
         showCursor: true,
-        startDelay: 500
+        startDelay: 100
     });
 
     // ===============================
@@ -30,14 +44,20 @@ $(document).ready(function(){
     $("#fullpage").fullpage({
         anchors: ['intro', 'skills'],
         loopBottom: true,
-        // navigation: true,
-        // navigationPosition: 'right',
-        // navigationTooltips: ['INTRO', 'SKILLS'],
-        scrollBar: true
+        scrollBar: true,
+        normalScrollElements: '#light-side',
+        afterLoad: function(anchorLink) {
+            if (anchorLink == "skills") {
+                var $skillCircleChildren = $("#skills-circle").children();
+                $("#awesm-header-dark").addClass('animated fadeInLeftBig');
+                $("#awesm-header-light").addClass('animated fadeInRightBig');
+                $skillCircleChildren.addClass('animated bounceIn');
+            }
+        }
     });
 
     // ===============================
-    // FULL NAVIGATION
+    // FULL PAGE NAVIGATION
     // ===============================
     $("#toggle").click(function() {
         $(this).toggleClass("active");
@@ -45,56 +65,37 @@ $(document).ready(function(){
     });
 
     // ===============================
-    // SKILLS CIRCLE
+    // SKILLS GRID
     // ===============================
-    // var vendorPrefAnim = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
     $('.grid').isotope({
-      itemSelector: '.grid-item',
-      masonry: {
-        columnWidth: 100
-      }
-    });
-
-    $("#html").hover(function() {
-        $("#html>#fill").animate({
-            top: "30%" //<-- SET THE VALUE IN % LOWER VALUE MEANS HIGHER FILL
-        }, 1500);
-    });
-
-    $("#sass").hover(function() {
-        $("#sass>#fill").animate({
-            top: "50%" //<-- SET THE VALUE IN % LOWER VALUE MEANS HIGHER FILL
-        }, 1500);
-    });
-
-    $("#jquery").hover(function() {
-        $("#jquery>#fill").animate({
-            top: "60%" //<-- SET THE VALUE IN % LOWER VALUE MEANS HIGHER FILL
-        }, 1500);
-    });
-
-    $("#js").hover(function() {
-        $("#js>#fill").animate({
-            top: "80%" //<-- SET THE VALUE IN % LOWER VALUE MEANS HIGHER FILL
-        }, 1500);
-    });
-
-    $("#angular").hover(function() {
-        $("#angular>#fill").animate({
-            top: "90%" //<-- SET THE VALUE IN % LOWER VALUE MEANS HIGHER FILL
-        }, 1500);
-    });
-
-    // ===============================
-    // SCROLL DETECT
-    // ===============================
-    $(this).scroll(function () {
-        var headerD = "#awesm-header-dark";
-        var headerL = "#awesm-header-light";
-        var y = $(this).scrollTop();
-        if (y > 500) {
-            $(headerD).addClass('animated fadeInLeftBig');
-            $(headerL).addClass('animated fadeInRightBig');
+        itemSelector: '.grid-item',
+        masonry: {
+            columnWidth: 5
         }
     });
+
+    // ===============================
+    // SKILLS FILL
+    // ===============================
+    var skillHover = function(elem, val) {
+        $(elem).hover(function() {
+            $(this).children().animate({
+                top: val //<-- SET THE VALUE IN % LOWER VALUE MEANS HIGHER FILL
+            }, 1500);
+        });
+    };
+
+    skillHover("#html", "30%");
+    skillHover("#sass", "50%");
+    skillHover("#jquery", "80%");
+    skillHover("#js", "80%");
+    skillHover("#android", "70%");
+    skillHover("#git", "50%");
+    skillHover("#java", "80%");
+    skillHover("#angular", "90%");
+    skillHover("#ai", "40%");
+    skillHover("#ps", "40%");
+    skillHover("#php", "30%");
+    skillHover("#mysql", "70%");
+
 });

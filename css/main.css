@@ -18,176 +18,6 @@
   font-family: "bebasThin";
   src: url("../fonts/bebasneue/BebasNeue Thin.otf");
 }
-*::-webkit-scrollbar {
-  width: 0.5em;
-  height: 0.5em;
-  background: #131819;
-}
-
-*::-webkit-scrollbar-thumb {
-  background: #9e2525;
-}
-
-*::selection {
-  color: #9e2525;
-  opacity: .5;
-}
-
-@media only screen and (max-width: 320px) {
-  body {
-    font-size: 2em;
-  }
-}
-#intro-section {
-  background: #131819;
-  text-align: center;
-}
-
-#skills-section {
-  background: #eef3f5;
-  z-index: 1;
-}
-#skills-section #containMe #side-by-side, #skills-section #containMe #light-side, #skills-section #containMe #dark-side {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  padding: 15px 15px;
-}
-#skills-section #containMe #light-side {
-  background: #eef3f5;
-  color: #131819;
-  left: 0;
-}
-#skills-section #containMe #dark-side {
-  background: #131819;
-  color: #eef3f5;
-  right: 0;
-  overflow: scroll;
-}
-
-#awesm-header, #awesm-header-dark, #awesm-header-light {
-  font-family: "bebasBook";
-  margin: 8px 8px;
-  cursor: pointer;
-  padding: 0em 0.2em;
-  display: inline-block;
-  line-height: 1em;
-  font-size: 8vmin;
-}
-
-#awesm-header-dark {
-  color: #eef3f5;
-  background: #131819;
-  opacity: 0;
-}
-
-#awesm-header-light {
-  color: #131819;
-  background: #eef3f5;
-  opacity: 0;
-}
-
-.background-image, #top-image, #back-image {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-
-#top-image {
-  background: url("../img/svg/bg_dynamic.svg") no-repeat -25px -50px;
-  z-index: 1;
-  background-size: cover;
-}
-
-#back-image {
-  background: url("../img/svg/bg_static.svg") no-repeat -25px -50px;
-  z-index: 0;
-  background-size: cover;
-}
-
-.typed-cursor {
-  opacity: 1;
-  font-size: 45px;
-  color: #eef3f5;
-  position: relative;
-  top: -5px;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  -ms-animation: blink 0.7s infinite;
-  -o-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite;
-}
-
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-moz-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-o-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-#toTypeString {
-  display: none;
-}
-
-.centerString {
-  display: inline;
-  width: 50%;
-  margin: 0 auto;
-}
-.centerString .staticString {
-  font-size: 155px;
-  font-family: "bebasRegular";
-  color: #eef3f5;
-  line-height: 80%;
-}
-.centerString .emp {
-  color: #9e2525;
-}
-.centerString #typedString {
-  display: inline-block;
-  font-size: 45px;
-  font-family: "bebasBook";
-  color: #eef3f5;
-}
-
 .button_container {
   position: fixed;
   top: 10%;
@@ -346,73 +176,361 @@
     left: 0;
   }
 }
-#skills-circle #base, #skills-circle #html, #skills-circle #sass, #skills-circle #jquery, #skills-circle #js, #skills-circle #angular {
-  height: 100px;
-  width: 100px;
+#skills-circle #base, #skills-circle #html-container #html, #skills-circle #sass-container #sass, #skills-circle #jquery-container #jquery, #skills-circle #js-container #js, #skills-circle #angular-container #angular, #skills-circle #php-container #php, #skills-circle #mysql-container #mysql, #skills-circle #git-container #git, #skills-circle #ai-container #ai, #skills-circle #ps-container #ps, #skills-circle #cordova-container #cordova, #skills-circle #java-container #java, #skills-circle #laravel-container #laravel, #skills-circle #swift-container #swift, #skills-circle #android-container #android {
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   background: #131819;
   cursor: pointer;
+  display: inline-block;
+  margin: 1px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
 }
-#skills-circle #base-fill, #skills-circle #html #fill, #skills-circle #sass #fill, #skills-circle #jquery #fill, #skills-circle #js #fill, #skills-circle #angular #fill {
+#skills-circle #base-fill, #skills-circle #html-container #html #fill, #skills-circle #sass-container #sass #fill, #skills-circle #jquery-container #jquery #fill, #skills-circle #js-container #js #fill, #skills-circle #angular-container #angular #fill, #skills-circle #php-container #php #fill, #skills-circle #mysql-container #mysql #fill, #skills-circle #git-container #git #fill, #skills-circle #ai-container #ai #fill, #skills-circle #ps-container #ps #fill, #skills-circle #cordova-container #cordova #fill, #skills-circle #java-container #java #fill, #skills-circle #laravel-container #laravel #fill, #skills-circle #swift-container #swift #fill, #skills-circle #android-container #android #fill {
   position: relative;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   background: #9e2525;
   top: 100%;
   opacity: 0.9;
   cursor: pointer;
 }
-#skills-circle #html {
-  background-image: url(../img/svg/logo_html.svg);
-  overflow: hidden;
+#skills-circle #full, #skills-circle #html-container #html, #skills-circle #html-container #html #fill, #skills-circle #sass-container #sass, #skills-circle #sass-container #sass #fill, #skills-circle #angular-container #angular, #skills-circle #angular-container #angular #fill, #skills-circle #ai-container #ai, #skills-circle #ai-container #ai #fill, #skills-circle #cordova-container #cordova, #skills-circle #cordova-container #cordova #fill, #skills-circle #swift-container #swift, #skills-circle #swift-container #swift #fill, #skills-circle #android-container #android, #skills-circle #android-container #android #fill {
+  height: 160px;
+  width: 160px;
 }
-#skills-circle #sass {
-  background-image: url(../img/svg/logo_sass.svg);
-  overflow: hidden;
+#skills-circle #html-container {
+  opacity: 0;
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  -ms-animation-delay: 0.7s;
+  -o-animation-delay: 0.7s;
+  animation-delay: 0.7s;
 }
-#skills-circle #jquery {
-  background-image: url(../img/svg/logo_jquery.svg);
-  overflow: hidden;
+#skills-circle #html-container #html {
+  background-image: url("../img/svg/logo_html.svg");
 }
-#skills-circle #js {
-  background-image: url(../img/svg/logo_js.svg);
-  overflow: hidden;
+#skills-circle #sass-container {
+  opacity: 0;
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  -ms-animation-delay: 0.8s;
+  -o-animation-delay: 0.8s;
+  animation-delay: 0.8s;
 }
-#skills-circle #angular {
-  background-image: url(../img/svg/logo_angular.svg);
-  overflow: hidden;
+#skills-circle #sass-container #sass {
+  background-image: url("../img/svg/logo_sass.svg");
+}
+#skills-circle #jquery-container {
+  opacity: 0;
+  -webkit-animation-delay: 0.9s;
+  -moz-animation-delay: 0.9s;
+  -ms-animation-delay: 0.9s;
+  -o-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+}
+#skills-circle #jquery-container #jquery {
+  background-image: url("../img/svg/logo_jquery.svg");
+}
+#skills-circle #js-container {
+  opacity: 0;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+#skills-circle #js-container #js {
+  background-image: url("../img/svg/logo_js.svg");
+}
+#skills-circle #angular-container {
+  opacity: 0;
+  -webkit-animation-delay: 1.1s;
+  -moz-animation-delay: 1.1s;
+  -ms-animation-delay: 1.1s;
+  -o-animation-delay: 1.1s;
+  animation-delay: 1.1s;
+}
+#skills-circle #angular-container #angular {
+  background-image: url("../img/svg/logo_angular.svg");
+}
+#skills-circle #php-container {
+  opacity: 0;
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  -ms-animation-delay: 1.2s;
+  -o-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+#skills-circle #php-container #php {
+  background-image: url("../img/svg/logo_php.svg");
+}
+#skills-circle #mysql-container {
+  opacity: 0;
+  -webkit-animation-delay: 1.3s;
+  -moz-animation-delay: 1.3s;
+  -ms-animation-delay: 1.3s;
+  -o-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+}
+#skills-circle #mysql-container #mysql {
+  background-image: url("../img/svg/logo_mysql.svg");
+}
+#skills-circle #git-container {
+  opacity: 0;
+  -webkit-animation-delay: 1.4s;
+  -moz-animation-delay: 1.4s;
+  -ms-animation-delay: 1.4s;
+  -o-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+#skills-circle #git-container #git {
+  background-image: url("../img/svg/logo_git.svg");
+}
+#skills-circle #ai-container {
+  opacity: 0;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -ms-animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+#skills-circle #ai-container #ai {
+  background-image: url("../img/svg/logo_ai.svg");
+}
+#skills-circle #ps-container {
+  opacity: 0;
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  -ms-animation-delay: 1.6s;
+  -o-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+#skills-circle #ps-container #ps {
+  background-image: url("../img/svg/logo_ps.svg");
+}
+#skills-circle #cordova-container {
+  opacity: 0;
+  -webkit-animation-delay: 1.7s;
+  -moz-animation-delay: 1.7s;
+  -ms-animation-delay: 1.7s;
+  -o-animation-delay: 1.7s;
+  animation-delay: 1.7s;
+}
+#skills-circle #cordova-container #cordova {
+  background-image: url("../img/svg/logo_cordova.svg");
+}
+#skills-circle #java-container {
+  opacity: 0;
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  -ms-animation-delay: 1.8s;
+  -o-animation-delay: 1.8s;
+  animation-delay: 1.8s;
+}
+#skills-circle #java-container #java {
+  background-image: url("../img/svg/logo_java.svg");
+}
+#skills-circle #laravel-container {
+  opacity: 0;
+  -webkit-animation-delay: 1.9s;
+  -moz-animation-delay: 1.9s;
+  -ms-animation-delay: 1.9s;
+  -o-animation-delay: 1.9s;
+  animation-delay: 1.9s;
+}
+#skills-circle #laravel-container #laravel {
+  background-image: url("../img/svg/logo_laravel.svg");
+}
+#skills-circle #swift-container {
+  opacity: 0;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  animation-delay: 2s;
+}
+#skills-circle #swift-container #swift {
+  background-image: url("../img/svg/logo_swift.svg");
+}
+#skills-circle #android-container {
+  opacity: 0;
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  -ms-animation-delay: 1.8s;
+  -o-animation-delay: 1.8s;
+  animation-delay: 1.8s;
+}
+#skills-circle #android-container #android {
+  background-image: url("../img/svg/logo_android.svg");
 }
 
-/* ---- grid ---- */
-.grid {
-  max-width: 2000px;
-  position: relative;
-}
-
-/* clear fix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-/* ---- .grid-item ---- */
-.grid-item {
-  float: left;
-  width: 100px;
-  height: 100px;
+*::-webkit-scrollbar {
+  width: 0.7em;
+  height: 0.7em;
   background: #131819;
-  border: 1px solid #eef3f5;
 }
 
-.grid-item--width2 {
-  width: 200px;
+*::-webkit-scrollbar-thumb {
+  background: #9e2525;
 }
 
-.grid-item--height2 {
-  height: 200px;
+*::selection {
+  color: #9e2525;
+  opacity: 0.5;
 }
 
-/* ---- .grid-item ---- */
+#intro-section {
+  background: #131819;
+  text-align: center;
+  overflow: hidden;
+}
+
+#skills-section {
+  background: #eef3f5;
+  z-index: 1;
+}
+#skills-section #side-by-side, #skills-section #light-side, #skills-section #dark-side {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+#skills-section #light-side {
+  background: #eef3f5;
+  color: #131819;
+  left: 0;
+  overflow: scroll;
+}
+#skills-section #dark-side {
+  background: #131819;
+  color: #eef3f5;
+  right: 0;
+}
+
+.background-image, #top-image, #back-image {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#top-image {
+  background: url("../img/svg/bg_dynamic.svg") no-repeat -25px -50px;
+  z-index: 1;
+  background-size: cover;
+}
+
+#back-image {
+  background: url("../img/svg/bg_static.svg") no-repeat -25px -50px;
+  z-index: 0;
+  background-size: cover;
+}
+
+#awesm-header, #awesm-header-dark, #awesm-header-light {
+  font-family: "bebasBook";
+  cursor: pointer;
+  padding: 0 0.2em;
+  display: inline-block;
+  line-height: 1em;
+  font-size: 8vmin;
+}
+
+#awesm-header-dark {
+  color: #eef3f5;
+  background: #131819;
+  opacity: 0;
+}
+
+#awesm-header-light {
+  color: #131819;
+  background: #eef3f5;
+  opacity: 0;
+}
+
+.typed-cursor {
+  opacity: 1;
+  font-size: 12vmin;
+  color: #eef3f5;
+  position: relative;
+  top: -5px;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#toTypeString {
+  display: none;
+}
+
+.centerString {
+  display: inline;
+  width: 50%;
+  margin: 0 auto;
+}
+.centerString .staticString {
+  font-size: 25vmin;
+  font-family: "bebasRegular";
+  color: #eef3f5;
+  line-height: 80%;
+}
+.centerString .emp {
+  color: #9e2525;
+}
+.centerString #typedString {
+  display: inline-block;
+  font-size: 12vmin;
+  font-family: "bebasBook";
+  color: #eef3f5;
+  line-height: 80%;
+}
 
 /*# sourceMappingURL=main.css.map */

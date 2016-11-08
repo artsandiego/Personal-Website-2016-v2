@@ -5,18 +5,24 @@
     -o-animation: $type $speed $range;
     animation: $type $speed $range;
 }
-
 @mixin keyframes {
-    @-webkit-keyframes blink {
+     @-webkit-keyframes blink{
         @content;
     }
     @-moz-keyframes blink {
-        @content;
+         @content;
     }
     @-o-keyframes blink {
-        @content;
+         @content;
     }
     @keyframes blink {
-        @content;
+         @content;
     }
+}
+@mixin delay($delay) {
+    -webkit-animation-delay: $delay;
+    -moz-animation-delay: $delay;
+    -ms-animation-delay: $delay;
+    -o-animation-delay: $delay;
+    animation-delay: $delay;
 }

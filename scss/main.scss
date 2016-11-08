@@ -1,12 +1,14 @@
 @import "partials/variables";
 @import "partials/mixins";
-
+@import "partials/fullpagenav";
+@import "partials/skills";
 // ===============================
 // SCROLL BAR | SELECTION
 // ===============================
+
 *::-webkit-scrollbar {
-    width: 0.5em;
-    height: 0.5em;
+    width: 0.7em;
+    height: 0.7em;
     background: $dark;
 }
 
@@ -14,64 +16,77 @@
     background: $accent;
 }
 
-*::selection{
+*::selection {
     color: $accent;
-    opacity: .5;
+    opacity: 0.5;
 }
+// ===============================
+// SECTIONS
+// ===============================
 
-@media only screen and (max-width: 320px) {
-    body {
-        font-size: 2em;
-    }
-}
-
-#intro-section{
+#intro-section {
     background: $dark;
     text-align: center;
+    overflow: hidden;
 }
 
-#skills-section{
+#skills-section {
     background: $light;
     z-index: 1;
-    #containMe{
-        #side-by-side{
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            padding: 15px 15px;
-        }
 
-        #light-side{
-            @extend #side-by-side;
-            background: $light;
-            color: $dark;
-            // width: 60%;
-            left: 0;
-        }
+    #side-by-side {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
 
-        #dark-side{
-            @extend #side-by-side;
-            background: $dark;
-            color: $light;
-            // width: 40%;
-            right: 0;
-            overflow: scroll;
-        }
+    #light-side {
+        @extend #side-by-side;
+        background: $light;
+        color: $dark;
+        left: 0;
+        overflow: scroll;
+    }
+
+    #dark-side {
+        @extend #side-by-side;
+        background: $dark;
+        color: $light;
+        right: 0;
     }
 }
+// ===============================
+// MOVING BACKGROUND
+// ===============================
 
+.background-image {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#top-image {
+    @extend .background-image;
+    background: url($imageTop) no-repeat -25px -50px;
+    z-index: 1;
+    background-size: cover;
+}
+
+#back-image {
+    @extend .background-image;
+    background: url($imageBack) no-repeat -25px -50px;
+    z-index: 0;
+    background-size: cover;
+}
 // ===============================
 // HEADER
 // ===============================
-// &::first-letter {
-//     color: $accent;
-// }
 
-#awesm-header{
+#awesm-header {
     font-family: $bBook;
-    margin: 8px 8px;
     cursor: pointer;
-    padding: 0em 0.2em;
+    padding: 0 0.2em;
     display: inline-block;
     line-height: 1em;
     font-size: 8vmin;
@@ -90,35 +105,11 @@
     background: $light;
     opacity: 0;
 }
-
-// ===============================
-// MOVING BACKGROUND
-// ===============================
-.background-image{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
-
-#top-image {
-    @extend .background-image;
-    background: url($topImagePath) no-repeat -25px -50px;
-    z-index: 1;
-    background-size: cover;
-}
-
-#back-image {
-    @extend .background-image;
-    background: url($backImagePath) no-repeat -25px -50px;
-    z-index: 0;
-    background-size: cover;
-}
-
 // ===============================
 // TYPED
 // ===============================
-.typed-cursor{
+
+.typed-cursor {
     opacity: 1;
     font-size: $dynamicFontSize;
     color: $light;
@@ -126,332 +117,45 @@
     top: -5px;
     @include animation(blink, 0.7s, infinite);
 }
-
-@include keyframes{
+@include keyframes {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
 
-#toTypeString{
+#toTypeString {
     display: none;
 }
 
-.centerString{
+.centerString {
     display: inline;
     width: 50%;
     margin: 0 auto;
 
-    .staticString{
+    .staticString {
         font-size: $staticFontSize;
         font-family: $bRegular;
         color: $light;
         line-height: 80%;
     }
 
-    .emp{
+    .emp {
         color: $accent;
     }
 
-    #typedString{
+    #typedString {
         display: inline-block;
         font-size: $dynamicFontSize;
         font-family: $bBook;
         color: $light;
+        line-height: 80%;
     }
 }
-
-// ===============================
-// FULL NAVIGATION
-// ===============================
-.button_container{
-  position: fixed;
-  top: 10%;
-  right: 5%;
-  height: 50px;
-  width: 50px;
-  cursor: pointer;
-  z-index: 100;
-  transition: opacity 1s ease;
-  opacity: .3;
-
-  &:hover {
-    opacity: 1;
-  }
-
-  &.active {
-    .top {
-      transform: translateY(10px) translateX(0) rotate(45deg);
-      background: $accent;
-    }
-    .middle {
-      opacity: 0;
-      background: $accent;
-    }
-    .bottom {
-      transform: translateY(-10px) translateX(0) rotate(-45deg);
-      background: $accent;
-    }
-  }
-
-  span {
-      background: $light;
-      border: none;
-      height: 5px;
-      width: 100%;
-      position: absolute;
-      top: 0px;
-      left: 0;
-      transition:  all .35s ease;
-      cursor: pointer;
-
-    &:nth-of-type(2) {
-      top: 10px;
-    }
-
-    &:nth-of-type(3) {
-      top: 20px;
-    }
-  }
-}
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 1;
-  visibility: hidden;
-  transition: opacity .35s, visibility .35s, width .35s;
-  z-index: 50;
-
-  &:before {
-    content: '';
-    background: $light;
-    left: -55%;
-    top: 0;
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    transition: left .35s ease;
-  }
-
-  &:after {
-    content: '';
-    background: $light;
-    right: -55%;
-    top: 0;
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    transition: all .35s ease;
-  }
-
-  &.open {
-    opacity: .9;
-    visibility: visible;
-    height: 100%;
-
-    &:before {
-      left: 0;
-    }
-
-    &:after {
-      right: 0;
-    }
-
-    li {
-      animation: fadeInRight .5s ease forwards;
-      animation-delay: .35s;
-
-      &:nth-of-type(2) {
-        animation-delay: .45s;
-      }
-      &:nth-of-type(3) {
-        animation-delay: .55s;
-      }
-      &:nth-of-type(4) {
-        animation-delay: .65s;
-      }
-    }
-  }
-  nav {
-    position: relative;
-    height: 70%;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 50px;
-    font-family: $bBook;
-    font-weight: 400;
-    text-align: center;
-    z-index: 100;
-  }
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    display: inline-block;
-    position: relative;
-    height: 100%;
-
-    li {
-      display: block;
-      height: 25%;
-      height: calc(100% / 4);
-      min-height: 50px;
-      position: relative;
-      opacity: 0;
-
-      a {
-        display: block;
-        position: relative;
-        color: $dark;
-        text-decoration: none;
-        overflow: hidden;
-
-        &:hover:after,
-         &:focus:after,
-         &:active:after {
-           width: 100%;
-         }
-
-        &:after {
-          content: '';
-          position: absolute;
-          bottom: 0;
-          left: 50%;
-          width: 0%;
-          transform: translateX(-50%);
-          height: 3px;
-          background: $dark;
-          transition: .35s;
-        }
-      }
-    }
-  }
-}
-
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    left: 20%;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-
-// ===============================
-// SKILLS CIRCLE
-// ===============================
-#skills-circle{
-
-    #base{
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-        background: $dark;
-        cursor: pointer;
-    }
-
-    #base-fill{
-        position: relative;
-        height: 100px;
-        width: 100px;
-        background: $accent;
-        top: 100%;
-        opacity: 0.9;
-        cursor: pointer;
-    }
-
-    #html{
-        @extend #base;
-        background-image: url(../img/svg/logo_html.svg);
-        overflow: hidden;
-
-        #fill{
-        @extend #base-fill;
-        }
-    }
-
-    #sass{
-        @extend #base;
-        background-image: url(../img/svg/logo_sass.svg);
-        overflow: hidden;
-
-        #fill{
-        @extend #base-fill;
-        }
-    }
-
-    #jquery{
-        @extend #base;
-        background-image: url(../img/svg/logo_jquery.svg);
-        overflow: hidden;
-
-        #fill{
-        @extend #base-fill;
-        }
-    }
-
-    #js{
-        @extend #base;
-        background-image: url(../img/svg/logo_js.svg);
-        overflow: hidden;
-
-        #fill{
-        @extend #base-fill;
-        }
-    }
-
-    #angular{
-        @extend #base;
-        background-image: url(../img/svg/logo_angular.svg);
-        overflow: hidden;
-
-        #fill{
-        @extend #base-fill;
-        }
-    }
-
-}
-
-
-
-
-/* ---- grid ---- */
-
-.grid {
-  max-width: 2000px;
-  position: relative;
-}
-
-/* clear fix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-/* ---- .grid-item ---- */
-
-.grid-item {
-  float: left;
-  width: 100px;
-  height: 100px;
-  background: $dark;
-  border: 1px solid $light;
-}
-
-.grid-item--width2 { width: 200px; }
-.grid-item--height2 { height: 200px; }
-
-/* ---- .grid-item ---- */
