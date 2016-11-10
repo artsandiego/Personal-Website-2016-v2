@@ -39,21 +39,22 @@ $(document).ready(function() {
     });
 
     // ===============================
-    // FULL PAGE
+    // FULL PAGE JS
     // ===============================
     $("#fullpage").fullpage({
         anchors: ['intro', 'skills'],
         loopBottom: true,
         scrollBar: true,
-        normalScrollElements: '#light-side',
+        // verticalCentered: false,
+        normalScrollElements: '#skills-section',
         afterLoad: function(anchorLink) {
             if (anchorLink == "skills") {
-                var $skillCircleChildren = $("#skills-circle").children();
+                var $skillCircleChildren = $(".skills-grid").children();
                 $("#awesm-header-dark").addClass('animated fadeInLeftBig');
                 $("#awesm-header-light").addClass('animated fadeInRightBig');
                 $skillCircleChildren.addClass('animated bounceIn');
             }
-        }
+        },
     });
 
     // ===============================
@@ -65,12 +66,14 @@ $(document).ready(function() {
     });
 
     // ===============================
-    // SKILLS GRID
+    // ISOTOPE
     // ===============================
-    $('.grid').isotope({
-        itemSelector: '.grid-item',
+    $('.skills-grid').isotope({
+        itemSelector: '.skills-grid-item',
+        layoutMode: 'masonry',
+        percentPosition: true,
         masonry: {
-            columnWidth: 5
+            columnWidth: '.percentPosition'
         }
     });
 

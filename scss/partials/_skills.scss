@@ -1,25 +1,30 @@
-#skills-circle{
-    $baseHeight: 80px;
-    $baseWidth: 80px;
+.skills-grid {
+
+    box-sizing: border-box;
+    background: blue;
+
+    .percentPosition{
+        width: $masterWidth;
+    }
 
     #base {
-        height: $baseHeight;
-        width: $baseWidth;
-        border-radius: 50%;
+        height: $masterHeight;
+        width: $masterWidth;
+        // border-radius: 50%;
         background: $dark;
         cursor: pointer;
-        display: inline-block;
-        margin: 1px;
+        margin: 0;
+        border: 0.5px solid $light;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         overflow: hidden;
     }
 
     #base-fill {
         position: relative;
-        height: $baseHeight;
-        width: $baseWidth;
+        height: $masterHeight;
+        width: $masterWidth;
         background: $accent;
         top: 100%;
         opacity: 0.9;
@@ -27,8 +32,8 @@
     }
 
     #full {
-        height: $baseHeight * 2;
-        width: $baseWidth * 2;
+        height: $masterHeight * 2;
+        width: $masterWidth * 2;
     }
 
     #html-container {
@@ -39,7 +44,7 @@
             @extend #base, #full;
             background-image: url($imageHtml);
 
-            #fill {
+            .fill {
                 @extend #base-fill, #full;
             }
         }
@@ -53,7 +58,7 @@
             @extend #base, #full;
             background-image: url($imageSass);
 
-            #fill {
+            .fill {
                 @extend #base-fill, #full;
             }
         }
@@ -64,11 +69,11 @@
         @include delay(0.9s);
 
         #jquery {
-            @extend #base;
+            @extend #base, #full;
             background-image: url($imageJquery);
 
-            #fill {
-                @extend #base-fill;
+            .fill {
+                @extend #base-fill, #full;
             }
         }
     }
@@ -81,7 +86,7 @@
             @extend #base;
             background-image: url($imageJs);
 
-            #fill {
+            .fill {
                 @extend #base-fill;
             }
         }
@@ -92,10 +97,10 @@
         @include delay(1.1s);
 
         #angular {
-            @extend #base, #full;
+            @extend #base;
             background-image: url($imageAngular);
 
-            #fill {
+            .fill {
                 @extend #base-fill, #full;
             }
         }
@@ -106,11 +111,11 @@
         @include delay(1.2s);
 
         #php {
-            @extend #base;
+            @extend #base, #full;
             background-image: url($imagePhp);
 
-            #fill {
-                @extend #base-fill;
+            .fill {
+                @extend #base-fill, #full;
             }
         }
     }
@@ -123,7 +128,7 @@
             @extend #base;
             background-image: url($imageMysql);
 
-            #fill {
+            .fill {
                 @extend #base-fill;
             }
         }
@@ -137,7 +142,7 @@
             @extend #base;
             background-image: url($imageGit);
 
-            #fill {
+            .fill {
                 @extend #base-fill;
             }
         }
@@ -151,7 +156,7 @@
             @extend #base, #full;
             background-image: url($imageAi);
 
-            #fill {
+            .fill {
                 @extend #base-fill, #full;
             }
         }
@@ -165,7 +170,7 @@
             @extend #base;
             background-image: url($imagePs);
 
-            #fill {
+            .fill {
                 @extend #base-fill;
             }
         }
@@ -176,10 +181,10 @@
         @include delay(1.7s);
 
         #cordova {
-            @extend #base, #full;
+            @extend #base;
             background-image: url($imageCordova);
 
-            #fill {
+            .fill {
                 @extend #base-fill, #full;
             }
         }
@@ -193,7 +198,7 @@
             @extend #base;
             background-image: url($imageJava);
 
-            #fill {
+            .fill {
                 @extend #base-fill;
             }
         }
@@ -207,7 +212,7 @@
             @extend #base;
             background-image: url($imageLaravel);
 
-            #fill {
+            .fill {
                 @extend #base-fill;
             }
         }
@@ -218,10 +223,10 @@
         @include delay(2s);
 
         #swift {
-            @extend #base, #full;
+            @extend #base;
             background-image: url($imageSwift);
 
-            #fill {
+            .fill {
                 @extend #base-fill, #full;
             }
         }
@@ -232,11 +237,11 @@
         @include delay(1.8s);
 
         #android {
-            @extend #base, #full;
+            @extend #base;
             background-image: url($imageAndroid);
 
-            #fill {
-                @extend #base-fill, #full;
+            .fill {
+                @extend #base-fill;
             }
         }
     }
