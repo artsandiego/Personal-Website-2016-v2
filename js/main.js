@@ -30,12 +30,12 @@ $(document).ready(function() {
     var movementStrength = 35;
     var height = movementStrength / $(window).height();
     var width = movementStrength / $(window).width();
-    $("#top-image").mousemove(function(e) {
+    $(".top-image").mousemove(function(e) {
         var pageX = e.pageX - ($(window).width() / 2);
         var pageY = e.pageY - ($(window).height() / 2);
         var newvalueX = width * pageX * -1 - 25;
         var newvalueY = height * pageY * -1 - 50;
-        $('#top-image').css("background-position", newvalueX + "px     " + newvalueY + "px");
+        $('.top-image').css("background-position", newvalueX + "px     " + newvalueY + "px");
     });
 
     // ===============================
@@ -49,10 +49,10 @@ $(document).ready(function() {
         normalScrollElements: '#skills-section',
         afterLoad: function(anchorLink) {
             if (anchorLink == "skills") {
-                var $skillCircleChildren = $(".skills-grid").children();
+                var $skillGridChildren = $(".skills-grid").children();
                 $("#awesm-header-dark").addClass('animated fadeInLeftBig');
                 $("#awesm-header-light").addClass('animated fadeInRightBig');
-                $skillCircleChildren.addClass('animated bounceIn');
+                $skillGridChildren.addClass('animated bounceIn');
             }
         },
     });
@@ -74,31 +74,86 @@ $(document).ready(function() {
         percentPosition: true,
         masonry: {
             columnWidth: '.percentPosition'
+            // columnWidth: '.percentPosition'
         }
     });
 
     // ===============================
     // SKILLS FILL
     // ===============================
-    var skillHover = function(elem, val) {
+    // var skillHover = function(elem, val) {
+    //     $(elem).hover(function() {
+    //         $(this).children().animate({
+    //             top: val //<-- SET THE VALUE IN % LOWER VALUE MEANS HIGHER FILL
+    //         }, 1000);
+    //     });
+    // };
+    //
+    // skillHover("#jquery", "80%");
+    // skillHover("#html", "30%");
+    // skillHover("#sass", "50%");
+    // skillHover("#js", "80%");
+    // skillHover("#android", "70%");
+    // skillHover("#git", "50%");
+    // skillHover("#java", "80%");
+    // skillHover("#angular", "90%");
+    // skillHover("#ai", "40%");
+    // skillHover("#ps", "40%");
+    // skillHover("#php", "30%");
+    // skillHover("#mysql", "70%");
+
+    var skillHover = function(elem, val){
         $(elem).hover(function() {
-            $(this).children().animate({
-                top: val //<-- SET THE VALUE IN % LOWER VALUE MEANS HIGHER FILL
-            }, 1500);
+            $(this).children('.fill').animate({
+                left: val
+                // top: val
+            }, 1000);
+        }, function() {
+            /* Stuff to do when the mouse leaves the element */
         });
     };
 
-    skillHover("#html", "30%");
-    skillHover("#sass", "50%");
-    skillHover("#jquery", "80%");
-    skillHover("#js", "80%");
-    skillHover("#android", "70%");
-    skillHover("#git", "50%");
-    skillHover("#java", "80%");
-    skillHover("#angular", "90%");
-    skillHover("#ai", "40%");
-    skillHover("#ps", "40%");
-    skillHover("#php", "30%");
-    skillHover("#mysql", "70%");
+    // skillHover("#jquery-container", "-80%");
+    // skillHover("#html-container", "-30%");
+    // skillHover("#sass-container", "-50%");
+    // skillHover("#js-container", "-80%");
+    // skillHover("#android-container", "-70%");
+    // skillHover("#git-container", "-50%");
+    // skillHover("#java-container", "-80%");
+    // skillHover("#angular-container", "-90%");
+    // skillHover("#ai-container", "-40%");
+    // skillHover("#ps-container", "-40%");
+    // skillHover("#php-container", "-30%");
+    // skillHover("#mysql-container", "-70%");
+    // skillHover("#jquery-container", "-80%");
 
+    // skillHover("#jquery-container", "80%");
+    // skillHover("#html-container", "30%");
+    // skillHover("#sass-container", "50%");
+    // skillHover("#js-container", "80%");
+    // skillHover("#android-container", "70%");
+    // skillHover("#git-container", "50%");
+    // skillHover("#java-container", "80%");
+    // skillHover("#angular-container", "90%");
+    // skillHover("#ai-container", "40%");
+    // skillHover("#ps-container", "40%");
+    // skillHover("#php-container", "30%");
+    // skillHover("#mysql-container", "70%");
+
+    // ===============================
+    // CHECK WINDOW SIZE
+    // ===============================
+    //CHECK WINDOW SIZE
+    var $windowSize = $(window).width();
+    var isSizeChanged = function(){
+        var display = ($windowSize < 500) ? "none" : "inherit";
+        $(".skills-grid").css('display', display);
+    };
+    //CHECK WIDTH UPON refresh
+    isSizeChanged();
+    //CHECK WIDTH UPON RESIZING
+    $(window).resize(function() {
+        $windowSize = $(window).width();
+        isSizeChanged();
+    });
 });

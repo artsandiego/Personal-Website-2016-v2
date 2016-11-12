@@ -1,5 +1,5 @@
 @import "partials/variables";
-@import"partials/mixins";
+@import "partials/mixins";
 @import "partials/skills";
 @import "partials/fullpagenav";
 
@@ -47,7 +47,9 @@
 
 #skills-section {
     z-index: 1;
-    background: $light;
+    background: $dark;
+    background-image: url($imageTop);
+    background-size: contain;
 
     #skills-section-content{
         position: absolute;
@@ -56,7 +58,6 @@
         left: 0;
         right: 0;
         margin: auto;
-        background: red;
     }
 
     // #side-by-side {
@@ -90,14 +91,14 @@
     height: 100%;
 }
 
-#top-image {
+.top-image {
     @extend .background-image;
     z-index: 1;
     background: url($imageTop) no-repeat -25px -50px;
     background-size: cover;
 }
 
-#back-image {
+.back-image {
     @extend .background-image;
     z-index: 0;
     background: url($imageBack) no-repeat -25px -50px;
