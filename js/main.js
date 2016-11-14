@@ -1,17 +1,3 @@
-// ===============================
-// SCROLL DETECT
-// ===============================
-// var vendorPrefAnim = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
-// $skillCircleChildren.one(vendorPrefAnim, function(){
-//     $skillCircleChildren.removeClass('animated bounceIn');
-// });
-//
-// $(this).scroll(function () {
-//     var $y = $(this).topScroll();
-//     if ($y > 500) {
-//     }
-// });
-
 $(document).ready(function() {
     // ===============================
     // TYPED
@@ -46,16 +32,33 @@ $(document).ready(function() {
         loopBottom: true,
         scrollBar: true,
         // verticalCentered: false,
-        normalScrollElements: '#skills-section',
+        normalScrollElements: '#skills-section-content',
         afterLoad: function(anchorLink) {
             if (anchorLink == "skills") {
                 var $skillGridChildren = $(".skills-grid").children();
-                $("#awesm-header-dark").addClass('animated fadeInLeftBig');
-                $("#awesm-header-light").addClass('animated fadeInRightBig');
+                $(".awesm-header-dark").addClass('animated fadeInLeftBig');
                 $skillGridChildren.addClass('animated bounceIn');
+                //HEADER ON HIDE DIVE AFTER 5 SECONDS
+                setTimeout(function() {
+                    $('.awesm-header-dark').removeClass('fadeInLeftBig');
+                    $('.awesm-header-dark').addClass('fadeOutLeftBig');
+                }, 6000);
             }
         },
     });
+
+    // ===============================
+    // WOW JS
+    // ===============================
+    wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 10,
+        mobile: true,
+        live: true
+    });
+    wow.init();
+
 
     // ===============================
     // FULL PAGE NAVIGATION
@@ -74,78 +77,46 @@ $(document).ready(function() {
         percentPosition: true,
         masonry: {
             columnWidth: '.percentPosition'
-            // columnWidth: '.percentPosition'
         }
     });
 
     // ===============================
     // SKILLS FILL
     // ===============================
-    // var skillHover = function(elem, val) {
-    //     $(elem).hover(function() {
-    //         $(this).children().animate({
-    //             top: val //<-- SET THE VALUE IN % LOWER VALUE MEANS HIGHER FILL
-    //         }, 1000);
-    //     });
-    // };
-    //
-    // skillHover("#jquery", "80%");
-    // skillHover("#html", "30%");
-    // skillHover("#sass", "50%");
-    // skillHover("#js", "80%");
-    // skillHover("#android", "70%");
-    // skillHover("#git", "50%");
-    // skillHover("#java", "80%");
-    // skillHover("#angular", "90%");
-    // skillHover("#ai", "40%");
-    // skillHover("#ps", "40%");
-    // skillHover("#php", "30%");
-    // skillHover("#mysql", "70%");
-
-    var skillHover = function(elem, val){
+    var skillHover = function(elem, val) {
         $(elem).hover(function() {
             $(this).children('.fill').animate({
-                left: val
-                // top: val
-            }, 1000);
+                top: '100%'
+            }, 500);
         }, function() {
-            /* Stuff to do when the mouse leaves the element */
+            $(this).children('.fill').animate({
+                top: '0%'
+            }, 500);
         });
     };
 
-    // skillHover("#jquery-container", "-80%");
-    // skillHover("#html-container", "-30%");
-    // skillHover("#sass-container", "-50%");
-    // skillHover("#js-container", "-80%");
-    // skillHover("#android-container", "-70%");
-    // skillHover("#git-container", "-50%");
-    // skillHover("#java-container", "-80%");
-    // skillHover("#angular-container", "-90%");
-    // skillHover("#ai-container", "-40%");
-    // skillHover("#ps-container", "-40%");
-    // skillHover("#php-container", "-30%");
-    // skillHover("#mysql-container", "-70%");
-    // skillHover("#jquery-container", "-80%");
-
-    // skillHover("#jquery-container", "80%");
-    // skillHover("#html-container", "30%");
-    // skillHover("#sass-container", "50%");
-    // skillHover("#js-container", "80%");
-    // skillHover("#android-container", "70%");
-    // skillHover("#git-container", "50%");
-    // skillHover("#java-container", "80%");
-    // skillHover("#angular-container", "90%");
-    // skillHover("#ai-container", "40%");
-    // skillHover("#ps-container", "40%");
-    // skillHover("#php-container", "30%");
-    // skillHover("#mysql-container", "70%");
+    skillHover("#jquery-container");
+    skillHover("#html-container");
+    skillHover("#sass-container");
+    skillHover("#js-container");
+    skillHover("#android-container");
+    skillHover("#git-container");
+    skillHover("#java-container");
+    skillHover("#angular-container");
+    skillHover("#ai-container");
+    skillHover("#ps-container");
+    skillHover("#php-container");
+    skillHover("#mysql-container");
+    skillHover("#cordova-container");
+    skillHover("#swift-container");
+    skillHover("#laravel-container");
 
     // ===============================
     // CHECK WINDOW SIZE
     // ===============================
     //CHECK WINDOW SIZE
     var $windowSize = $(window).width();
-    var isSizeChanged = function(){
+    var isSizeChanged = function() {
         var display = ($windowSize < 500) ? "none" : "inherit";
         $(".skills-grid").css('display', display);
     };
@@ -157,3 +128,17 @@ $(document).ready(function() {
         isSizeChanged();
     });
 });
+
+// ===============================
+// SCROLL DETECT
+// ===============================
+// var vendorPrefAnim = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
+// $skillCircleChildren.one(vendorPrefAnim, function(){
+//     $skillCircleChildren.removeClass('animated bounceIn');
+// });
+//
+// $(this).scroll(function () {
+//     var $y = $(this).topScroll();
+//     if ($y > 500) {
+//     }
+// });

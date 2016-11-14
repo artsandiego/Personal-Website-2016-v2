@@ -108,27 +108,31 @@
 // HEADER
 // ===============================
 
-#awesm-header {
+.awesm-header {
     display: inline-block;
-    padding: 0 0.2em;
+    padding: 0 0.5em;
     font-family: $bBook;
     font-size: 8vmin;
     line-height: 1em;
     cursor: pointer;
 }
 
-#awesm-header-dark {
-    @extend #awesm-header;
+.awesm-header-dark {
+    @extend .awesm-header;
     color: $light;
     opacity: 0;
     background: $dark;
+    z-index: 100;
+    position: absolute;
 }
 
-#awesm-header-light {
-    @extend #awesm-header;
+.awesm-header-light {
+    @extend .awesm-header;
     color: $dark;
     opacity: 0;
     background: $light;
+    z-index: 100;
+    position: absolute;
 }
 // ===============================
 // TYPED

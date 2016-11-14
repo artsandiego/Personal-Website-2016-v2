@@ -5,35 +5,7 @@
         width: $masterWidth;
     }
 
-    // #base {
-    //     height: $masterHeight;
-    //     width: $masterWidth;
-    //     // border-radius: 50%;
-    //     background: $light;
-    //     cursor: pointer;
-    //     border: 0.5px solid $dark;
-    //     background-repeat: no-repeat;
-    //     background-position: center;
-    //     background-size: contain;
-    //     overflow: hidden;
-    // }
-    //
-    // #base-fill {
-    //     height: $masterHeight;
-    //     width: $masterWidth;
-    //     position: relative;
-    //     background: $accent;
-    //     top: 100%;
-    //     opacity: 0.9;
-    //     cursor: pointer;
-    // }
-    //
-    // #full{
-    //     height: $masterHeight * 2;
-    //     width: $masterWidth * 2
-    // }
-// ======================================
-    .master-container{
+    .master-container {
         opacity: 0;
         background: $light;
         height: $masterHeight;
@@ -42,26 +14,39 @@
         border: 0.5px solid $dark;
         cursor: pointer;
 
-        &:hover .master-content{
+        &:hover .master-content {
             transform: scale(1.2);
             filter: blur(0px);
         }
     }
 
-    .master-fill{
-        background: rgba(115, 12, 12, 0.79);
+    .master-fill {
+        background: $light;
         position: absolute;
         height: $masterHeight;
         width: 100%;
-        // left: -100%;
-        top: 100%;
+        top: 0;
         z-index: 1;
         cursor: pointer;
-        // border-right: .3em solid $dark;
-        // border-top: .3em solid $dark;
+        opacity: 0.9;
     }
 
-    .master-content{
+    .master-fill-text {
+        text-align: center;
+        font-size: 6vmin;
+        font-family: $bBook;
+        //BACKGROUND
+        // line-height: 1em;
+        // background: $dark;
+        // color: $light;
+        // padding: 0em 0.2em;
+        // position: absolute;
+        // top: 0;
+        // right: 0;
+        // left: 0;
+    }
+
+    .master-content {
         //centering stuff
         position: absolute;
         margin: auto;
@@ -69,7 +54,6 @@
         right: 0;
         bottom: 0;
         left: 0;
-
         transition: all 1s;
         overflow: hidden;
         background-size: contain;
@@ -86,18 +70,20 @@
         width: $masterWidth * 2;
     }
 
-    .larger-fill{
+    .larger-fill {
         height: $masterHeight * 2;
     }
-
     //LARGER///////////////////////////
-
     #html-container {
         @include delay(.1s);
         @extend .master-container, .larger;
 
         .fill {
             @extend .master-fill, .larger-fill;
+
+            h1 {
+                @extend .master-fill-text;
+            }
         }
 
         #html {
@@ -112,6 +98,10 @@
 
         .fill {
             @extend .master-fill, .larger-fill;
+
+            h1 {
+                @extend .master-fill-text;
+            }
         }
 
         #sass {
@@ -126,6 +116,10 @@
 
         .fill {
             @extend .master-fill, .larger-fill;
+
+            h1 {
+                @extend .master-fill-text;
+            }
         }
 
         #jquery {
@@ -140,6 +134,10 @@
 
         .fill {
             @extend .master-fill, .larger-fill;
+
+            h1 {
+                @extend .master-fill-text;
+            }
         }
 
         #php {
@@ -154,6 +152,10 @@
 
         .fill {
             @extend .master-fill, .larger-fill;
+
+            h1 {
+                @extend .master-fill-text;
+            }
         }
 
         #ai {
@@ -161,15 +163,17 @@
             background-image: url($imageAi);
         }
     }
-
     //NORMAL///////////////////////////
-
     #js-container {
         @include delay(0.6s);
         @extend .master-container;
 
         .fill {
             @extend .master-fill;
+
+            h1 {
+                @extend .master-fill-text;
+            }
         }
 
         #js {
@@ -184,6 +188,10 @@
 
         .fill {
             @extend .master-fill;
+
+            h1 {
+                @extend .master-fill-text;
+            }
         }
 
         #angular {
@@ -198,6 +206,10 @@
 
         .fill {
             @extend .master-fill;
+
+            h1 {
+                @extend .master-fill-text;
+            }
         }
 
         #mysql {
@@ -212,6 +224,10 @@
 
         .fill {
             @extend .master-fill;
+
+            h1 {
+                @extend .master-fill-text;
+            }
         }
 
         #git {
@@ -226,6 +242,10 @@
 
         .fill {
             @extend .master-fill;
+
+            h1 {
+                @extend .master-fill-text;
+            }
         }
 
         #ps {
@@ -240,6 +260,12 @@
 
         .fill {
             @extend .master-fill;
+            background: $dark;
+
+            h1 {
+                @extend .master-fill-text;
+                color: $light;
+            }
         }
 
         #cordova {
@@ -254,6 +280,10 @@
 
         .fill {
             @extend .master-fill;
+
+            h1 {
+                @extend .master-fill-text;
+            }
         }
 
         #java {
@@ -268,6 +298,12 @@
 
         .fill {
             @extend .master-fill;
+            background: $dark;
+
+            h1 {
+                @extend .master-fill-text;
+                color: $light;
+            }
         }
 
         #laravel {
@@ -282,6 +318,12 @@
 
         .fill {
             @extend .master-fill;
+            background: $dark;
+
+            h1 {
+                @extend .master-fill-text;
+                color: $light;
+            }
         }
 
         #swift {
@@ -296,6 +338,10 @@
 
         .fill {
             @extend .master-fill;
+
+            h1 {
+                @extend .master-fill-text;
+            }
         }
 
         #android {
@@ -303,214 +349,4 @@
             background-image: url($imageAndroid);
         }
     }
-
-    // #html-container {
-    //     opacity: 0;
-    //     @include delay(0s);
-    //
-    //     #html {
-    //         @extend #base, #full;
-    //         background-image: url($imageHtml);
-    //
-    //         .fill {
-    //             @extend #base-fill, #full;
-    //         }
-    //     }
-    // }
-
-    // #sass-container {
-    //     opacity: 0;
-    //     @include delay(0.1s);
-    //
-    //     #sass {
-    //         @extend #base, #full;
-    //         background-image: url($imageSass);
-    //
-    //         .fill {
-    //             @extend #base-fill, #full;
-    //         }
-    //     }
-    // }
-
-    // #jquery-container {
-    //     opacity: 0;
-    //     @include delay(0.2s);
-    //
-    //     #jquery {
-    //         @extend #base, #full;
-    //         background-image: url($imageJquery);
-    //
-    //         .fill {
-    //             @extend #base-fill, #full;
-    //         }
-    //     }
-    // }
-
-    // #js-container {
-    //     opacity: 0;
-    //     @include delay(0.3s);
-    //
-    //     #js {
-    //         @extend #base;
-    //         background-image: url($imageJs);
-    //
-    //         .fill {
-    //             @extend #base-fill;
-    //         }
-    //     }
-    // }
-
-    // #angular-container {
-    //     opacity: 0;
-    //     @include delay(0.4s);
-    //
-    //     #angular {
-    //         @extend #base;
-    //         background-image: url($imageAngular);
-    //
-    //         .fill {
-    //             @extend #base-fill, #full;
-    //         }
-    //     }
-    // }
-
-    // #php-container {
-    //     opacity: 0;
-    //     @include delay(0.5s);
-    //
-    //     #php {
-    //         @extend #base, #full;
-    //         background-image: url($imagePhp);
-    //
-    //         .fill {
-    //             @extend #base-fill, #full;
-    //         }
-    //     }
-    // }
-
-    // #mysql-container {
-    //     opacity: 0;
-    //     @include delay(0.6s);
-    //
-    //     #mysql {
-    //         @extend #base;
-    //         background-image: url($imageMysql);
-    //
-    //         .fill {
-    //             @extend #base-fill;
-    //         }
-    //     }
-    // }
-
-    // #git-container {
-    //     opacity: 0;
-    //     @include delay(0.7s);
-    //
-    //     #git {
-    //         @extend #base;
-    //         background-image: url($imageGit);
-    //
-    //         .fill {
-    //             @extend #base-fill;
-    //         }
-    //     }
-    // }
-
-    // #ai-container {
-    //     opacity: 0;
-    //     @include delay(0.8s);
-    //
-    //     #ai {
-    //         @extend #base, #full;
-    //         background-image: url($imageAi);
-    //
-    //         .fill {
-    //             @extend #base-fill, #full;
-    //         }
-    //     }
-    // }
-
-    // #ps-container {
-    //     opacity: 0;
-    //     @include delay(0.9s);
-    //
-    //     #ps {
-    //         @extend #base;
-    //         background-image: url($imagePs);
-    //
-    //         .fill {
-    //             @extend #base-fill;
-    //         }
-    //     }
-    // }
-    //
-    // #cordova-container {
-    //     opacity: 0;
-    //     @include delay(1s);
-    //
-    //     #cordova {
-    //         @extend #base;
-    //         background-image: url($imageCordova);
-    //
-    //         .fill {
-    //             @extend #base-fill, #full;
-    //         }
-    //     }
-    // }
-    //
-    // #java-container {
-    //     opacity: 0;
-    //     @include delay(1.1s);
-    //
-    //     #java {
-    //         @extend #base;
-    //         background-image: url($imageJava);
-    //
-    //         .fill {
-    //             @extend #base-fill;
-    //         }
-    //     }
-    // }
-
-    // #laravel-container {
-    //     opacity: 0;
-    //     @include delay(1.2s);
-    //
-    //     #laravel {
-    //         @extend #base;
-    //         background-image: url($imageLaravel);
-    //
-    //         .fill {
-    //             @extend #base-fill;
-    //         }
-    //     }
-    // }
-    //
-    // #swift-container {
-    //     opacity: 0;
-    //     @include delay(1.3s);
-    //
-    //     #swift {
-    //         @extend #base;
-    //         background-image: url($imageSwift);
-    //
-    //         .fill {
-    //             @extend #base-fill, #full;
-    //         }
-    //     }
-    // }
-    //
-    // #android-container {
-    //     opacity: 0;
-    //     @include delay(1.4s);
-    //
-    //     #android {
-    //         @extend #base;
-    //         background-image: url($imageAndroid);
-    //
-    //         .fill {
-    //             @extend #base-fill;
-    //         }
-    //     }
-    // }
 }

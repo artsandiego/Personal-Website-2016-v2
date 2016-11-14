@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<!-- REFERENCE -->
-<!-- http://codepen.io/PaulVanO/pen/GgGeyE -->
-
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="description" content="Interactive Résumé of Artemio A. San Diego | Web Developer">
+    <meta name="description" content="Portfolio of Artemio A. San Diego | Aspiring Front End Web Developer">
     <meta name="author" content="Artemio A. San Diego | November 2016">
     <title>Artisawesm | Portfolio</title>
     <link rel="shortcut icon" type="image/png" href="img/png/artsandiego.png">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" href="css/vendor/bootstrap.min.css"> -->
     <!-- <link rel="stylesheet" href="css/vendor/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/vendor/jquery.fullPage.css">
     <link rel="stylesheet" href="css/vendor/animate.css">
     <link rel="stylesheet" href="css/main.css">
@@ -46,13 +43,12 @@
         <nav class="overlay-menu">
             <ul>
                 <li><a href="#intro">Intro</a></li>
-                <li><a href="#skills">Skills | Interests</a></li>
+                <li><a href="#skills">Skills &amp; Interests</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </div>
-
     <!-- ================================ -->
 
     <div id="fullpage">
@@ -75,86 +71,45 @@
         <div class="section" id="skills-section">
             <div class="above"></div>
             <div class="container-fluid">
-                <!-- <div class="row">
-                    <div class="col-xs-7 col-md-7 col-lg-6" id="light-side">
-                        <h1 id="awesm-header-dark">Skills | Interests</h1>
-                        <div id="skills-grid" class="grid">
-                            <div id="jquery-container"><div class="grid-item" id="jquery"><div class="fill"></div></div></div>
-                            <div id="js-container"><div class="grid-item" id="js"><div class="fill"></div></div></div>
-                            <div id="angular-container"><div class="grid-item" id="angular"><div class="fill"></div></div></div>
-                            <div id="php-container"><div class="grid-item" id="php"><div class="fill"></div></div></div>
-                            <div id="html-container"><div class="grid-item" id="html"><div class="fill"></div></div></div>
-                            <div id="sass-container"><div class="grid-item" id="sass"><div class="fill"></div></div></div>
-                            <div id="android-container"><div class="grid-item" id="android"><div class="fill"></div></div></div>
-                            <div id="swift-container"><div class="grid-item" id="swift"><div class="fill"></div></div></div>
-                            <div id="ps-container"><div class="grid-item" id="ps"><div class="fill"></div></div></div>
-                            <div id="git-container"><div class="grid-item" id="git"><div class="fill"></div></div></div>
-                            <div id="ai-container"><div class="grid-item" id="ai"><div class="fill"></div></div></div>
-                            <div id="cordova-container"><div class="grid-item" id="cordova"><div class="fill"></div></div></div>
-                            <div id="laravel-container"><div class="grid-item" id="laravel"><div class="fill"></div></div></div>
-                            <div id="mysql-container"><div class="grid-item" id="mysql"><div class="fill"></div></div></div>
-                            <div id="java-container"><div class="grid-item" id="java"><div class="fill"></div></div></div>
-                        </div>
-                    </div>
-                    <div class="col-xs-5 col-md-5 col-lg-6" id="dark-side">
-                        <h1 id="awesm-header-light">Description</h1>
-                    </div>
-                </div> -->
-
                 <div id="skills-section-content">
+                    <h1 class="awesm-header-dark">Skills &amp; Interests</h1>
                     <div class="skills-grid">
                         <div class="percentPosition"></div>
-                        <div class="skills-grid-item" id="jquery-container"><div class="fill"></div><div id="jquery"></div></div>
-                        <div class="skills-grid-item" id="js-container"><div class="fill"></div><div id="js"></div></div>
-                        <div class="skills-grid-item" id="java-container"><div class="fill"></div><div id="java"></div></div>
-                        <div class="skills-grid-item" id="php-container"><div class="fill"></div><div id="php"></div></div>
-                        <div class="skills-grid-item" id="html-container"><div class="fill"></div><div id="html"></div></div>
-                        <div class="skills-grid-item" id="git-container"><div class="fill"></div><div id="git"></div></div>
-                        <div class="skills-grid-item" id="mysql-container"><div class="fill"></div><div id="mysql"></div></div>
-                        <div class="skills-grid-item" id="android-container"><div class="fill"></div><div id="android"></div></div>
-                        <div class="skills-grid-item" id="angular-container"><div class="fill"></div><div id="angular"></div></div>
-                        <div class="skills-grid-item" id="swift-container"><div class="fill"></div><div id="swift"></div></div>
-                        <div class="skills-grid-item" id="ps-container"><div class="fill"></div><div id="ps"></div></div>
-                        <div class="skills-grid-item" id="sass-container"><div class="fill"></div><div id="sass"></div></div>
-                        <div class="skills-grid-item" id="ai-container"><div class="fill"></div><div id="ai"></div></div>
-                        <div class="skills-grid-item" id="cordova-container"><div class="fill"></div><div id="cordova"></div></div>
-                        <div class="skills-grid-item" id="laravel-container"><div class="fill"></div><div id="laravel"></div></div>
-
-                        <!-- <div id="jquery-container"><div class="skills-grid-item" id="jquery"><div class="fill"></div></div></div> -->
-                        <!-- <div id="js-container"><div class="skills-grid-item" id="js"><div class="fill"></div></div></div> -->
-                        <!-- <div id="java-container"><div class="skills-grid-item" id="java"><div class="fill"></div></div></div> -->
-                        <!-- <div id="php-container"><div class="skills-grid-item" id="php"><div class="fill"></div></div></div> -->
-                        <!-- <div id="html-container"><div class="skills-grid-item" id="html"><div class="fill"></div></div></div> -->
-                        <!-- <div id="git-container"><div class="skills-grid-item" id="git"><div class="fill"></div></div></div> -->
-                        <!-- <div id="mysql-container"><div class="skills-grid-item" id="mysql"><div class="fill"></div></div></div> -->
-                        <!-- <div id="android-container"><div class="skills-grid-item" id="android"><div class="fill"></div></div></div> -->
-                        <!-- <div id="angular-container"><div class="skills-grid-item" id="angular"><div class="fill"></div></div></div> -->
-                        <!-- <div id="swift-container"><div class="skills-grid-item" id="swift"><div class="fill"></div></div></div> -->
-                        <!-- <div id="ps-container"><div class="skills-grid-item" id="ps"><div class="fill"></div></div></div> -->
-                        <!-- <div id="sass-container"><div class="skills-grid-item" id="sass"><div class="fill"></div></div></div> -->
-                        <!-- <div id="ai-container"><div class="skills-grid-item" id="ai"><div class="fill"></div></div></div> -->
-                        <!-- <div id="cordova-container"><div class="skills-grid-item" id="cordova"><div class="fill"></div></div></div> -->
-                        <!-- <div id="laravel-container"><div class="skills-grid-item" id="laravel"><div class="fill"></div></div></div> -->
+                        <div class="skills-grid-item" id="jquery-container"><div class="fill"><h1>jQuery</h1></div><div id="jquery"></div></div>
+                        <div class="skills-grid-item" id="js-container"><div class="fill"><h1>Javascript</h1></div><div id="js"></div></div>
+                        <div class="skills-grid-item" id="java-container"><div class="fill"><h1>Java</h1></div><div id="java"></div></div>
+                        <div class="skills-grid-item" id="php-container"><div class="fill"><h1>PHP</h1></div><div id="php"></div></div>
+                        <div class="skills-grid-item" id="html-container"><div class="fill"><h1>HTML|CSS</h1></div><div id="html"></div></div>
+                        <div class="skills-grid-item" id="laravel-container"><div class="fill"><h1>Laravel</h1></div><div id="laravel"></div></div>
+                        <div class="skills-grid-item" id="mysql-container"><div class="fill"><h1>MySQLi</h1></div><div id="mysql"></div></div>
+                        <div class="skills-grid-item" id="android-container"><div class="fill"><h1>Android</h1></div><div id="android"></div></div>
+                        <div class="skills-grid-item" id="angular-container"><div class="fill"><h1>Angular JS</h1></div><div id="angular"></div></div>
+                        <div class="skills-grid-item" id="swift-container"><div class="fill"><h1>Swift</h1></div><div id="swift"></div></div>
+                        <div class="skills-grid-item" id="ps-container"><div class="fill"><h1>Photoshop</h1></div><div id="ps"></div></div>
+                        <div class="skills-grid-item" id="git-container"><div class="fill"><h1>GIT</h1></div><div id="git"></div></div>
+                        <div class="skills-grid-item" id="sass-container"><div class="fill"><h1>SASS</h1></div><div id="sass"></div></div>
+                        <div class="skills-grid-item" id="ai-container"><div class="fill"><h1>Illustrator</h1></div><div id="ai"></div></div>
+                        <div class="skills-grid-item" id="cordova-container"><div class="fill"><h1>Cordova</h1></div><div id="cordova"></div></div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- // =============================== -->
-        <!-- // SECTION -->
+        <!-- // PROJECT SECTION -->
         <!-- // =============================== -->
     </div>
 
+    <!-- <script type="text/javascript" src="js/vendor/jquery-3.1.1.min.js"></script> -->
+    <!-- <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script> -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
     <script type="text/javascript" src="js/vendor/isotope.pkgd.min.js"></script>
-    <!-- <script type="text/javascript" src="js/vendor/jquery-3.1.1.min.js"></script> -->
-    <!-- <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script> -->
+    <script type="text/javascript" src="js/vendor/wow.min.js"></script>
     <script type="text/javascript" src="js/vendor/angular.min.js"></script>
     <script type="text/javascript" src="js/vendor/typed.js"></script>
     <script type="text/javascript" src="js/vendor/scrolloverflow.min.js"></script>
     <script type="text/javascript" src="js/vendor/jquery.fullPage.min.js"></script>
-    <!-- <script type="text/javascript" src="js/vendor/jquery.parallax.min.js"></script> -->
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 
