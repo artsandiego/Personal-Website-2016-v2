@@ -379,6 +379,139 @@
   background-image: url("../img/svg/logo/android.svg");
 }
 
+/* line 1, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile {
+  background: #131819;
+}
+
+/* line 6, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile .master-image, .skills-mobile #html-mobile .mobile-image, .skills-mobile #sass-mobile .mobile-image, .skills-mobile #jquery-mobile .mobile-image, .skills-mobile #js-mobile .mobile-image, .skills-mobile #angular-mobile .mobile-image, .skills-mobile #php-mobile .mobile-image, .skills-mobile #mysql-mobile .mobile-image, .skills-mobile #git-mobile .mobile-image, .skills-mobile #ai-mobile .mobile-image, .skills-mobile #ps-mobile .mobile-image, .skills-mobile #android-mobile .mobile-image, .skills-mobile #java-mobile .mobile-image, .skills-mobile #laravel-mobile .mobile-image, .skills-mobile #cordova-mobile .mobile-image, .skills-mobile #swift-mobile .mobile-image {
+  background: #eef3f5;
+  height: 7.7em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 0.2em;
+}
+
+/* line 15, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile .master-level, .skills-mobile #html-mobile .mobile-level, .skills-mobile #sass-mobile .mobile-level, .skills-mobile #jquery-mobile .mobile-level, .skills-mobile #js-mobile .mobile-level, .skills-mobile #angular-mobile .mobile-level, .skills-mobile #php-mobile .mobile-level, .skills-mobile #mysql-mobile .mobile-level, .skills-mobile #git-mobile .mobile-level, .skills-mobile #ai-mobile .mobile-level, .skills-mobile #ps-mobile .mobile-level, .skills-mobile #android-mobile .mobile-level, .skills-mobile #java-mobile .mobile-level, .skills-mobile #laravel-mobile .mobile-level, .skills-mobile #cordova-mobile .mobile-level, .skills-mobile #swift-mobile .mobile-level {
+  background: #eef3f5;
+  height: 7.7em;
+}
+
+/* line 18, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile .master-level .mobile-fill, .skills-mobile #html-mobile .mobile-level .mobile-fill, .skills-mobile #sass-mobile .mobile-level .mobile-fill, .skills-mobile #jquery-mobile .mobile-level .mobile-fill, .skills-mobile #js-mobile .mobile-level .mobile-fill, .skills-mobile #angular-mobile .mobile-level .mobile-fill, .skills-mobile #php-mobile .mobile-level .mobile-fill, .skills-mobile #mysql-mobile .mobile-level .mobile-fill, .skills-mobile #git-mobile .mobile-level .mobile-fill, .skills-mobile #ai-mobile .mobile-level .mobile-fill, .skills-mobile #ps-mobile .mobile-level .mobile-fill, .skills-mobile #android-mobile .mobile-level .mobile-fill, .skills-mobile #java-mobile .mobile-level .mobile-fill, .skills-mobile #laravel-mobile .mobile-level .mobile-fill, .skills-mobile #cordova-mobile .mobile-level .mobile-fill, .skills-mobile #swift-mobile .mobile-level .mobile-fill {
+  height: 7.7em;
+  width: 0%;
+  background: #9e2525;
+  border-right: 2px solid #131819;
+}
+
+/* line 26, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile .mobile-desc {
+  opacity: .9;
+}
+
+/* line 28, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile .mobile-desc h1 {
+  color: #eef3f5;
+  font-size: 5vmin;
+  font-family: "bebasBook";
+  text-align: center;
+  z-index: 1;
+}
+
+/* line 38, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #html-mobile .mobile-image {
+  background-image: url("../img/svg/logo/htmlcss.svg");
+}
+
+/* line 47, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #sass-mobile .mobile-image {
+  background-image: url("../img/svg/logo/sass.svg");
+}
+
+/* line 56, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #jquery-mobile .mobile-image {
+  background-image: url("../img/svg/logo/jquery.svg");
+}
+
+/* line 65, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #js-mobile .mobile-image {
+  background-image: url("../img/svg/logo/js.svg");
+}
+
+/* line 74, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #angular-mobile .mobile-image {
+  background-image: url("../img/svg/logo/angular.svg");
+}
+
+/* line 83, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #php-mobile .mobile-image {
+  background-image: url("../img/svg/logo/php.svg");
+}
+
+/* line 92, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #mysql-mobile .mobile-image {
+  background-image: url("../img/svg/logo/mysql.svg");
+}
+
+/* line 101, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #git-mobile .mobile-image {
+  background-image: url("../img/svg/logo/git.svg");
+}
+
+/* line 110, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #ai-mobile .mobile-image {
+  background-image: url("../img/svg/logo/ai.svg");
+}
+
+/* line 119, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #ps-mobile .mobile-image {
+  background-image: url("../img/svg/logo/ps.svg");
+}
+
+/* line 128, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #android-mobile .mobile-image {
+  background-image: url("../img/svg/logo/android.svg");
+}
+
+/* line 137, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #java-mobile .mobile-image {
+  background-image: url("../img/svg/logo/java.svg");
+}
+
+/* line 146, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #laravel-mobile .mobile-image {
+  background-image: url("../img/svg/logo/laravel.svg");
+}
+
+/* line 150, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #laravel-mobile .mobile-level {
+  background: #131819;
+}
+
+/* line 156, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #cordova-mobile .mobile-image {
+  background-image: url("../img/svg/logo/cordova.svg");
+}
+
+/* line 160, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #cordova-mobile .mobile-level {
+  background: #131819;
+}
+
+/* line 166, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #swift-mobile .mobile-image {
+  background-image: url("../img/svg/logo/swift.svg");
+}
+
+/* line 170, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+.skills-mobile #swift-mobile .mobile-level {
+  background: #131819;
+}
+
 /* line 1, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .button_container {
   position: fixed;
@@ -658,33 +791,33 @@
   }
 }
 
-/* line 22, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 23, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 *::-webkit-scrollbar {
   width: 0.4em;
   height: 0.4em;
   background: #131819;
 }
 
-/* line 28, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 29, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 *::-webkit-scrollbar-thumb {
   opacity: 0.7;
   background: #9e2525;
 }
 
-/* line 33, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 34, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 *::selection {
   opacity: 0.5;
   color: #9e2525;
 }
 
-/* line 41, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 42, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 #intro-section {
   overflow: hidden;
   text-align: center;
   background: #131819;
 }
 
-/* line 46, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 47, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 #intro-section .scroll-down {
   position: absolute;
   z-index: 100;
@@ -697,7 +830,7 @@
   opacity: 0;
 }
 
-/* line 57, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 58, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 #intro-section .scroll-down #triangle {
   width: 0;
   height: 0;
@@ -706,7 +839,7 @@
   border-left: 30px solid transparent;
 }
 
-/* line 67, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 68, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 #skills-section {
   z-index: 1;
   background: #131819;
@@ -714,7 +847,7 @@
   background-size: contain;
 }
 
-/* line 73, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 74, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 #skills-section #skills-section-content {
   position: absolute;
   top: 0;
@@ -724,7 +857,7 @@
   margin: auto;
 }
 
-/* line 105, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 106, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .background-image, .top-image, .back-image {
   position: fixed;
   top: 0;
@@ -732,21 +865,21 @@
   height: 100%;
 }
 
-/* line 112, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 113, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .top-image {
   z-index: 1;
   background: url("../img/svg/bg_dynamic.svg") no-repeat -25px -50px;
   background-size: cover;
 }
 
-/* line 119, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 120, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .back-image {
   z-index: 0;
   background: url("../img/svg/bg_static.svg") no-repeat -25px -50px;
   background-size: cover;
 }
 
-/* line 129, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 130, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .awesm-header, .awesm-header-dark, .awesm-header-light {
   font-family: "bebasBook";
   font-size: 8vmin;
@@ -756,7 +889,7 @@
   cursor: pointer;
 }
 
-/* line 138, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 139, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .awesm-header-dark {
   position: absolute;
   z-index: 100;
@@ -765,7 +898,7 @@
   background: #131819;
 }
 
-/* line 147, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 148, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .awesm-header-light {
   position: absolute;
   z-index: 100;
@@ -774,7 +907,7 @@
   background: #eef3f5;
 }
 
-/* line 159, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 160, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .typed-cursor {
   font-size: 12vmin;
   position: relative;
@@ -788,19 +921,19 @@
   animation: blink 0.7s infinite;
 }
 
-/* line 168, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 169, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 #toTypeString {
   display: none;
 }
 
-/* line 172, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 173, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .centerString {
   display: inline;
   width: 50%;
   margin: 0 auto;
 }
 
-/* line 177, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 178, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .centerString .staticString {
   font-family: "bebasRegular";
   font-size: 25vmin;
@@ -808,12 +941,12 @@
   color: #eef3f5;
 }
 
-/* line 184, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 185, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .centerString .emp {
   color: #9e2525;
 }
 
-/* line 188, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 189, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .centerString #typedString {
   font-family: "bebasBook";
   font-size: 12vmin;

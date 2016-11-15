@@ -42,11 +42,12 @@ $(document).ready(function() {
                 var $skillGridChildren = $(".skills-grid").children();
                 $(".awesm-header-dark").addClass('animated fadeInLeftBig');
                 $skillGridChildren.addClass('animated bounceIn');
-                //HEADER ON HIDE DIVE AFTER 5 SECONDS
+                //HEADER ON HIDE DIV AFTER 5 SECONDS
                 setTimeout(function() {
                     $('.awesm-header-dark').removeClass('fadeInLeftBig');
                     $('.awesm-header-dark').addClass('fadeOutLeftBig');
-                }, 6000);
+                }, 3000);
+
             }
         },
     });
@@ -87,8 +88,8 @@ $(document).ready(function() {
     // ===============================
     // SKILLS FILL
     // ===============================
+    var percent_number_step = $.animateNumber.numberStepFactories.append(' %');
     var skillHover = function(elem, fill) {
-        var percent_number_step = $.animateNumber.numberStepFactories.append(' %');
         var lvl = 100 - fill;
         $(elem).click(function(event) {
             //LEVEL
@@ -141,16 +142,44 @@ $(document).ready(function() {
     interests("#swift-container");
     interests("#laravel-container");
 
+    // =MOBILE========================
+    var mobileSkills = function(elem, val){
+        $(elem).hover(function() {
+            $(this).find('.mobile-fill').animate({
+                width: val+"%"
+            }, 1500);
+        });
+    };
+
+    mobileSkills("#jquery-mobile", 50);
+    mobileSkills("#html-mobile", 90);
+    mobileSkills("#sass-mobile", 50);
+    mobileSkills("#js-mobile", 30);
+    mobileSkills("#android-mobile", 20);
+    mobileSkills("#git-mobile", 60);
+    mobileSkills("#java-mobile", 20);
+    mobileSkills("#angular-mobile", 10);
+    mobileSkills("#ai-mobile", 60);
+    mobileSkills("#ps-mobile", 50);
+    mobileSkills("#php-mobile", 60);
+    mobileSkills("#mysql-mobile", 50);
+
     // ===============================
     // CHECK WINDOW SIZE
     // ===============================
     //CHECK WINDOW SIZE
     var $windowSize = $(window).width();
     var isSizeChanged = function() {
-        var display = ($windowSize < 500) ? "none" : "inherit";
-        $(".skills-grid").css('display', display);
+        // var display = ($windowSize < 500) ? "none" : "inherit";
+        if($windowSize < 500){
+            $(".skills-grid").css('display', "none");
+            $(".skills-mobile").css('display', 'inherit');
+        }else{
+            $(".skills-grid").css('display', "inherit");
+            $(".skills-mobile").css('display', 'none');
+        }
     };
-    //CHECK WIDTH UPON refresh
+    //CHECK WIDTH AFTER REFRESHING
     isSizeChanged();
     //CHECK WIDTH UPON RESIZING
     $(window).resize(function() {
