@@ -1,8 +1,7 @@
-@import "partials/variables";
-@import "partials/mixins";
-@import "partials/skills";
-@import "partials/fullpagenav";
-
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/skills';
+@import 'partials/fullpagenav';
 @include keyframes {
     0% {
         opacity: 1;
@@ -27,13 +26,13 @@
 }
 
 *::-webkit-scrollbar-thumb {
+    opacity: 0.7;
     background: $accent;
-    opacity: .7;
 }
 
 *::selection {
-    color: $accent;
     opacity: 0.5;
+    color: $accent;
 }
 // ===============================
 // SECTIONS
@@ -41,8 +40,28 @@
 
 #intro-section {
     overflow: hidden;
-    background: $dark;
     text-align: center;
+    background: $dark;
+
+    .scroll-down {
+        position: absolute;
+        z-index: 100;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0 0 2em;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        opacity: 0;
+
+        #triangle {
+            width: 0;
+            height: 0;
+            border-top: 30px solid $light;
+            border-right: 30px solid transparent;
+            border-left: 30px solid transparent;
+        }
+    }
 }
 
 #skills-section {
@@ -51,15 +70,14 @@
     background-image: url($imageTop);
     background-size: contain;
 
-    #skills-section-content{
+    #skills-section-content {
         position: absolute;
         top: 0;
+        right: 0;
         bottom: 0;
         left: 0;
-        right: 0;
         margin: auto;
     }
-
     // #side-by-side {
     //     position: absolute;
     //     top: 0;
@@ -92,59 +110,59 @@
 }
 
 .top-image {
-    @extend .background-image;
     z-index: 1;
     background: url($imageTop) no-repeat -25px -50px;
     background-size: cover;
+    @extend .background-image;
 }
 
 .back-image {
-    @extend .background-image;
     z-index: 0;
     background: url($imageBack) no-repeat -25px -50px;
     background-size: cover;
+    @extend .background-image;
 }
 // ===============================
 // HEADER
 // ===============================
 
 .awesm-header {
-    display: inline-block;
-    padding: 0 0.5em;
     font-family: $bBook;
     font-size: 8vmin;
     line-height: 1em;
+    display: inline-block;
+    padding: 0 0.5em;
     cursor: pointer;
 }
 
 .awesm-header-dark {
-    @extend .awesm-header;
-    color: $light;
-    opacity: 0;
-    background: $dark;
-    z-index: 100;
     position: absolute;
+    z-index: 100;
+    opacity: 0;
+    color: $light;
+    background: $dark;
+    @extend .awesm-header;
 }
 
 .awesm-header-light {
-    @extend .awesm-header;
-    color: $dark;
-    opacity: 0;
-    background: $light;
-    z-index: 100;
     position: absolute;
+    z-index: 100;
+    opacity: 0;
+    color: $dark;
+    background: $light;
+    @extend .awesm-header;
 }
 // ===============================
 // TYPED
 // ===============================
 
 .typed-cursor {
-    @include animation(blink, 0.7s, infinite);
+    font-size: $dynamicFontSize;
     position: relative;
     top: -5px;
-    color: $light;
     opacity: 1;
-    font-size: $dynamicFontSize;
+    color: $light;
+    @include animation(blink, .7s, infinite);
 }
 
 #toTypeString {
@@ -157,10 +175,10 @@
     margin: 0 auto;
 
     .staticString {
-        color: $light;
         font-family: $bRegular;
         font-size: $staticFontSize;
         line-height: 80%;
+        color: $light;
     }
 
     .emp {
@@ -168,10 +186,10 @@
     }
 
     #typedString {
-        display: inline-block;
-        color: $light;
         font-family: $bBook;
         font-size: $dynamicFontSize;
         line-height: 80%;
+        display: inline-block;
+        color: $light;
     }
 }

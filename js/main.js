@@ -5,9 +5,12 @@ $(document).ready(function() {
     $("#typedString").typed({
         stringsElement: $('#toTypeString'),
         typeSpeed: 10,
-        backDelay: 700,
+        backDelay: 600,
         showCursor: true,
-        startDelay: 100
+        startDelay: 100,
+        callback: function(){
+            $("#scroll-indicator").animate({opacity: 1}, 1000);
+        }
     });
 
     // ===============================
@@ -29,6 +32,7 @@ $(document).ready(function() {
     // ===============================
     $("#fullpage").fullpage({
         anchors: ['intro', 'skills'],
+        fitToSection: false,
         loopBottom: true,
         scrollBar: true,
         // verticalCentered: false,
@@ -83,33 +87,59 @@ $(document).ready(function() {
     // ===============================
     // SKILLS FILL
     // ===============================
-    var skillHover = function(elem, val) {
+    var skillHover = function(elem, fill) {
+        var percent_number_step = $.animateNumber.numberStepFactories.append(' %');
+        var lvl = 100 - fill;
+        $(elem).click(function(event) {
+            //LEVEL
+            $(this).children('.level').animate({
+                top: fill+"%",
+            }, 1500);
+            $(this).find('.level > .level-value').animateNumber({
+                number: lvl+"%",
+                numberStep: percent_number_step
+            }, 1500);
+        });
         $(elem).hover(function() {
+            //SHADE
             $(this).children('.fill').animate({
                 top: '100%'
             }, 500);
         }, function() {
+            //SHADE
             $(this).children('.fill').animate({
                 top: '0%'
             }, 500);
         });
     };
 
-    skillHover("#jquery-container");
-    skillHover("#html-container");
-    skillHover("#sass-container");
-    skillHover("#js-container");
-    skillHover("#android-container");
-    skillHover("#git-container");
-    skillHover("#java-container");
-    skillHover("#angular-container");
-    skillHover("#ai-container");
-    skillHover("#ps-container");
-    skillHover("#php-container");
-    skillHover("#mysql-container");
+    var interests = function(elem){
+        $(elem).click(function(event) {
+            $(this).children('.desc').animate({
+                top: '0%'
+            }, 500);
+        });
+    };
+
+    skillHover("#jquery-container", 50); //<-- 100 - the value = the % of level value, the value = height of level
+    skillHover("#html-container", 10);
+    skillHover("#sass-container", 50);
+    skillHover("#js-container", 70);
+    skillHover("#android-container", 80);
+    skillHover("#git-container", 40);
+    skillHover("#java-container", 80);
+    skillHover("#angular-container", 90);
+    skillHover("#ai-container", 40);
+    skillHover("#ps-container", 50);
+    skillHover("#php-container", 40);
+    skillHover("#mysql-container", 50);
     skillHover("#cordova-container");
     skillHover("#swift-container");
     skillHover("#laravel-container");
+
+    interests("#cordova-container");
+    interests("#swift-container");
+    interests("#laravel-container");
 
     // ===============================
     // CHECK WINDOW SIZE

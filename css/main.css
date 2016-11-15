@@ -26,6 +26,8 @@
 /* line 1, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid {
   box-sizing: border-box;
+  /*LARGER///////////////////////////*/
+  /*NORMAL///////////////////////////*/
 }
 
 /* line 4, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
@@ -46,12 +48,42 @@
 
 /* line 17, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid .master-container:hover .master-content, .skills-grid #html-container:hover .master-content, .skills-grid #sass-container:hover .master-content, .skills-grid #jquery-container:hover .master-content, .skills-grid #php-container:hover .master-content, .skills-grid #ai-container:hover .master-content, .skills-grid #js-container:hover .master-content, .skills-grid #angular-container:hover .master-content, .skills-grid #mysql-container:hover .master-content, .skills-grid #git-container:hover .master-content, .skills-grid #ps-container:hover .master-content, .skills-grid #cordova-container:hover .master-content, .skills-grid #java-container:hover .master-content, .skills-grid #laravel-container:hover .master-content, .skills-grid #swift-container:hover .master-content, .skills-grid #android-container:hover .master-content, .skills-grid .master-container:hover #html-container #html, .skills-grid #html-container .master-container:hover #html, .skills-grid #html-container:hover #html, .skills-grid #sass-container:hover #html-container #html, .skills-grid #html-container #sass-container:hover #html, .skills-grid #jquery-container:hover #html-container #html, .skills-grid #html-container #jquery-container:hover #html, .skills-grid #php-container:hover #html-container #html, .skills-grid #html-container #php-container:hover #html, .skills-grid #ai-container:hover #html-container #html, .skills-grid #html-container #ai-container:hover #html, .skills-grid #js-container:hover #html-container #html, .skills-grid #html-container #js-container:hover #html, .skills-grid #angular-container:hover #html-container #html, .skills-grid #html-container #angular-container:hover #html, .skills-grid #mysql-container:hover #html-container #html, .skills-grid #html-container #mysql-container:hover #html, .skills-grid #git-container:hover #html-container #html, .skills-grid #html-container #git-container:hover #html, .skills-grid #ps-container:hover #html-container #html, .skills-grid #html-container #ps-container:hover #html, .skills-grid #cordova-container:hover #html-container #html, .skills-grid #html-container #cordova-container:hover #html, .skills-grid #java-container:hover #html-container #html, .skills-grid #html-container #java-container:hover #html, .skills-grid #laravel-container:hover #html-container #html, .skills-grid #html-container #laravel-container:hover #html, .skills-grid #swift-container:hover #html-container #html, .skills-grid #html-container #swift-container:hover #html, .skills-grid #android-container:hover #html-container #html, .skills-grid #html-container #android-container:hover #html, .skills-grid .master-container:hover #sass-container #sass, .skills-grid #sass-container .master-container:hover #sass, .skills-grid #html-container:hover #sass-container #sass, .skills-grid #sass-container #html-container:hover #sass, .skills-grid #sass-container:hover #sass, .skills-grid #jquery-container:hover #sass-container #sass, .skills-grid #sass-container #jquery-container:hover #sass, .skills-grid #php-container:hover #sass-container #sass, .skills-grid #sass-container #php-container:hover #sass, .skills-grid #ai-container:hover #sass-container #sass, .skills-grid #sass-container #ai-container:hover #sass, .skills-grid #js-container:hover #sass-container #sass, .skills-grid #sass-container #js-container:hover #sass, .skills-grid #angular-container:hover #sass-container #sass, .skills-grid #sass-container #angular-container:hover #sass, .skills-grid #mysql-container:hover #sass-container #sass, .skills-grid #sass-container #mysql-container:hover #sass, .skills-grid #git-container:hover #sass-container #sass, .skills-grid #sass-container #git-container:hover #sass, .skills-grid #ps-container:hover #sass-container #sass, .skills-grid #sass-container #ps-container:hover #sass, .skills-grid #cordova-container:hover #sass-container #sass, .skills-grid #sass-container #cordova-container:hover #sass, .skills-grid #java-container:hover #sass-container #sass, .skills-grid #sass-container #java-container:hover #sass, .skills-grid #laravel-container:hover #sass-container #sass, .skills-grid #sass-container #laravel-container:hover #sass, .skills-grid #swift-container:hover #sass-container #sass, .skills-grid #sass-container #swift-container:hover #sass, .skills-grid #android-container:hover #sass-container #sass, .skills-grid #sass-container #android-container:hover #sass, .skills-grid .master-container:hover #jquery-container #jquery, .skills-grid #jquery-container .master-container:hover #jquery, .skills-grid #html-container:hover #jquery-container #jquery, .skills-grid #jquery-container #html-container:hover #jquery, .skills-grid #sass-container:hover #jquery-container #jquery, .skills-grid #jquery-container #sass-container:hover #jquery, .skills-grid #jquery-container:hover #jquery, .skills-grid #php-container:hover #jquery-container #jquery, .skills-grid #jquery-container #php-container:hover #jquery, .skills-grid #ai-container:hover #jquery-container #jquery, .skills-grid #jquery-container #ai-container:hover #jquery, .skills-grid #js-container:hover #jquery-container #jquery, .skills-grid #jquery-container #js-container:hover #jquery, .skills-grid #angular-container:hover #jquery-container #jquery, .skills-grid #jquery-container #angular-container:hover #jquery, .skills-grid #mysql-container:hover #jquery-container #jquery, .skills-grid #jquery-container #mysql-container:hover #jquery, .skills-grid #git-container:hover #jquery-container #jquery, .skills-grid #jquery-container #git-container:hover #jquery, .skills-grid #ps-container:hover #jquery-container #jquery, .skills-grid #jquery-container #ps-container:hover #jquery, .skills-grid #cordova-container:hover #jquery-container #jquery, .skills-grid #jquery-container #cordova-container:hover #jquery, .skills-grid #java-container:hover #jquery-container #jquery, .skills-grid #jquery-container #java-container:hover #jquery, .skills-grid #laravel-container:hover #jquery-container #jquery, .skills-grid #jquery-container #laravel-container:hover #jquery, .skills-grid #swift-container:hover #jquery-container #jquery, .skills-grid #jquery-container #swift-container:hover #jquery, .skills-grid #android-container:hover #jquery-container #jquery, .skills-grid #jquery-container #android-container:hover #jquery, .skills-grid .master-container:hover #php-container #php, .skills-grid #php-container .master-container:hover #php, .skills-grid #html-container:hover #php-container #php, .skills-grid #php-container #html-container:hover #php, .skills-grid #sass-container:hover #php-container #php, .skills-grid #php-container #sass-container:hover #php, .skills-grid #jquery-container:hover #php-container #php, .skills-grid #php-container #jquery-container:hover #php, .skills-grid #php-container:hover #php, .skills-grid #ai-container:hover #php-container #php, .skills-grid #php-container #ai-container:hover #php, .skills-grid #js-container:hover #php-container #php, .skills-grid #php-container #js-container:hover #php, .skills-grid #angular-container:hover #php-container #php, .skills-grid #php-container #angular-container:hover #php, .skills-grid #mysql-container:hover #php-container #php, .skills-grid #php-container #mysql-container:hover #php, .skills-grid #git-container:hover #php-container #php, .skills-grid #php-container #git-container:hover #php, .skills-grid #ps-container:hover #php-container #php, .skills-grid #php-container #ps-container:hover #php, .skills-grid #cordova-container:hover #php-container #php, .skills-grid #php-container #cordova-container:hover #php, .skills-grid #java-container:hover #php-container #php, .skills-grid #php-container #java-container:hover #php, .skills-grid #laravel-container:hover #php-container #php, .skills-grid #php-container #laravel-container:hover #php, .skills-grid #swift-container:hover #php-container #php, .skills-grid #php-container #swift-container:hover #php, .skills-grid #android-container:hover #php-container #php, .skills-grid #php-container #android-container:hover #php, .skills-grid .master-container:hover #ai-container #ai, .skills-grid #ai-container .master-container:hover #ai, .skills-grid #html-container:hover #ai-container #ai, .skills-grid #ai-container #html-container:hover #ai, .skills-grid #sass-container:hover #ai-container #ai, .skills-grid #ai-container #sass-container:hover #ai, .skills-grid #jquery-container:hover #ai-container #ai, .skills-grid #ai-container #jquery-container:hover #ai, .skills-grid #php-container:hover #ai-container #ai, .skills-grid #ai-container #php-container:hover #ai, .skills-grid #ai-container:hover #ai, .skills-grid #js-container:hover #ai-container #ai, .skills-grid #ai-container #js-container:hover #ai, .skills-grid #angular-container:hover #ai-container #ai, .skills-grid #ai-container #angular-container:hover #ai, .skills-grid #mysql-container:hover #ai-container #ai, .skills-grid #ai-container #mysql-container:hover #ai, .skills-grid #git-container:hover #ai-container #ai, .skills-grid #ai-container #git-container:hover #ai, .skills-grid #ps-container:hover #ai-container #ai, .skills-grid #ai-container #ps-container:hover #ai, .skills-grid #cordova-container:hover #ai-container #ai, .skills-grid #ai-container #cordova-container:hover #ai, .skills-grid #java-container:hover #ai-container #ai, .skills-grid #ai-container #java-container:hover #ai, .skills-grid #laravel-container:hover #ai-container #ai, .skills-grid #ai-container #laravel-container:hover #ai, .skills-grid #swift-container:hover #ai-container #ai, .skills-grid #ai-container #swift-container:hover #ai, .skills-grid #android-container:hover #ai-container #ai, .skills-grid #ai-container #android-container:hover #ai, .skills-grid .master-container:hover #js-container #js, .skills-grid #js-container .master-container:hover #js, .skills-grid #html-container:hover #js-container #js, .skills-grid #js-container #html-container:hover #js, .skills-grid #sass-container:hover #js-container #js, .skills-grid #js-container #sass-container:hover #js, .skills-grid #jquery-container:hover #js-container #js, .skills-grid #js-container #jquery-container:hover #js, .skills-grid #php-container:hover #js-container #js, .skills-grid #js-container #php-container:hover #js, .skills-grid #ai-container:hover #js-container #js, .skills-grid #js-container #ai-container:hover #js, .skills-grid #js-container:hover #js, .skills-grid #angular-container:hover #js-container #js, .skills-grid #js-container #angular-container:hover #js, .skills-grid #mysql-container:hover #js-container #js, .skills-grid #js-container #mysql-container:hover #js, .skills-grid #git-container:hover #js-container #js, .skills-grid #js-container #git-container:hover #js, .skills-grid #ps-container:hover #js-container #js, .skills-grid #js-container #ps-container:hover #js, .skills-grid #cordova-container:hover #js-container #js, .skills-grid #js-container #cordova-container:hover #js, .skills-grid #java-container:hover #js-container #js, .skills-grid #js-container #java-container:hover #js, .skills-grid #laravel-container:hover #js-container #js, .skills-grid #js-container #laravel-container:hover #js, .skills-grid #swift-container:hover #js-container #js, .skills-grid #js-container #swift-container:hover #js, .skills-grid #android-container:hover #js-container #js, .skills-grid #js-container #android-container:hover #js, .skills-grid .master-container:hover #angular-container #angular, .skills-grid #angular-container .master-container:hover #angular, .skills-grid #html-container:hover #angular-container #angular, .skills-grid #angular-container #html-container:hover #angular, .skills-grid #sass-container:hover #angular-container #angular, .skills-grid #angular-container #sass-container:hover #angular, .skills-grid #jquery-container:hover #angular-container #angular, .skills-grid #angular-container #jquery-container:hover #angular, .skills-grid #php-container:hover #angular-container #angular, .skills-grid #angular-container #php-container:hover #angular, .skills-grid #ai-container:hover #angular-container #angular, .skills-grid #angular-container #ai-container:hover #angular, .skills-grid #js-container:hover #angular-container #angular, .skills-grid #angular-container #js-container:hover #angular, .skills-grid #angular-container:hover #angular, .skills-grid #mysql-container:hover #angular-container #angular, .skills-grid #angular-container #mysql-container:hover #angular, .skills-grid #git-container:hover #angular-container #angular, .skills-grid #angular-container #git-container:hover #angular, .skills-grid #ps-container:hover #angular-container #angular, .skills-grid #angular-container #ps-container:hover #angular, .skills-grid #cordova-container:hover #angular-container #angular, .skills-grid #angular-container #cordova-container:hover #angular, .skills-grid #java-container:hover #angular-container #angular, .skills-grid #angular-container #java-container:hover #angular, .skills-grid #laravel-container:hover #angular-container #angular, .skills-grid #angular-container #laravel-container:hover #angular, .skills-grid #swift-container:hover #angular-container #angular, .skills-grid #angular-container #swift-container:hover #angular, .skills-grid #android-container:hover #angular-container #angular, .skills-grid #angular-container #android-container:hover #angular, .skills-grid .master-container:hover #mysql-container #mysql, .skills-grid #mysql-container .master-container:hover #mysql, .skills-grid #html-container:hover #mysql-container #mysql, .skills-grid #mysql-container #html-container:hover #mysql, .skills-grid #sass-container:hover #mysql-container #mysql, .skills-grid #mysql-container #sass-container:hover #mysql, .skills-grid #jquery-container:hover #mysql-container #mysql, .skills-grid #mysql-container #jquery-container:hover #mysql, .skills-grid #php-container:hover #mysql-container #mysql, .skills-grid #mysql-container #php-container:hover #mysql, .skills-grid #ai-container:hover #mysql-container #mysql, .skills-grid #mysql-container #ai-container:hover #mysql, .skills-grid #js-container:hover #mysql-container #mysql, .skills-grid #mysql-container #js-container:hover #mysql, .skills-grid #angular-container:hover #mysql-container #mysql, .skills-grid #mysql-container #angular-container:hover #mysql, .skills-grid #mysql-container:hover #mysql, .skills-grid #git-container:hover #mysql-container #mysql, .skills-grid #mysql-container #git-container:hover #mysql, .skills-grid #ps-container:hover #mysql-container #mysql, .skills-grid #mysql-container #ps-container:hover #mysql, .skills-grid #cordova-container:hover #mysql-container #mysql, .skills-grid #mysql-container #cordova-container:hover #mysql, .skills-grid #java-container:hover #mysql-container #mysql, .skills-grid #mysql-container #java-container:hover #mysql, .skills-grid #laravel-container:hover #mysql-container #mysql, .skills-grid #mysql-container #laravel-container:hover #mysql, .skills-grid #swift-container:hover #mysql-container #mysql, .skills-grid #mysql-container #swift-container:hover #mysql, .skills-grid #android-container:hover #mysql-container #mysql, .skills-grid #mysql-container #android-container:hover #mysql, .skills-grid .master-container:hover #git-container #git, .skills-grid #git-container .master-container:hover #git, .skills-grid #html-container:hover #git-container #git, .skills-grid #git-container #html-container:hover #git, .skills-grid #sass-container:hover #git-container #git, .skills-grid #git-container #sass-container:hover #git, .skills-grid #jquery-container:hover #git-container #git, .skills-grid #git-container #jquery-container:hover #git, .skills-grid #php-container:hover #git-container #git, .skills-grid #git-container #php-container:hover #git, .skills-grid #ai-container:hover #git-container #git, .skills-grid #git-container #ai-container:hover #git, .skills-grid #js-container:hover #git-container #git, .skills-grid #git-container #js-container:hover #git, .skills-grid #angular-container:hover #git-container #git, .skills-grid #git-container #angular-container:hover #git, .skills-grid #mysql-container:hover #git-container #git, .skills-grid #git-container #mysql-container:hover #git, .skills-grid #git-container:hover #git, .skills-grid #ps-container:hover #git-container #git, .skills-grid #git-container #ps-container:hover #git, .skills-grid #cordova-container:hover #git-container #git, .skills-grid #git-container #cordova-container:hover #git, .skills-grid #java-container:hover #git-container #git, .skills-grid #git-container #java-container:hover #git, .skills-grid #laravel-container:hover #git-container #git, .skills-grid #git-container #laravel-container:hover #git, .skills-grid #swift-container:hover #git-container #git, .skills-grid #git-container #swift-container:hover #git, .skills-grid #android-container:hover #git-container #git, .skills-grid #git-container #android-container:hover #git, .skills-grid .master-container:hover #ps-container #ps, .skills-grid #ps-container .master-container:hover #ps, .skills-grid #html-container:hover #ps-container #ps, .skills-grid #ps-container #html-container:hover #ps, .skills-grid #sass-container:hover #ps-container #ps, .skills-grid #ps-container #sass-container:hover #ps, .skills-grid #jquery-container:hover #ps-container #ps, .skills-grid #ps-container #jquery-container:hover #ps, .skills-grid #php-container:hover #ps-container #ps, .skills-grid #ps-container #php-container:hover #ps, .skills-grid #ai-container:hover #ps-container #ps, .skills-grid #ps-container #ai-container:hover #ps, .skills-grid #js-container:hover #ps-container #ps, .skills-grid #ps-container #js-container:hover #ps, .skills-grid #angular-container:hover #ps-container #ps, .skills-grid #ps-container #angular-container:hover #ps, .skills-grid #mysql-container:hover #ps-container #ps, .skills-grid #ps-container #mysql-container:hover #ps, .skills-grid #git-container:hover #ps-container #ps, .skills-grid #ps-container #git-container:hover #ps, .skills-grid #ps-container:hover #ps, .skills-grid #cordova-container:hover #ps-container #ps, .skills-grid #ps-container #cordova-container:hover #ps, .skills-grid #java-container:hover #ps-container #ps, .skills-grid #ps-container #java-container:hover #ps, .skills-grid #laravel-container:hover #ps-container #ps, .skills-grid #ps-container #laravel-container:hover #ps, .skills-grid #swift-container:hover #ps-container #ps, .skills-grid #ps-container #swift-container:hover #ps, .skills-grid #android-container:hover #ps-container #ps, .skills-grid #ps-container #android-container:hover #ps, .skills-grid .master-container:hover #cordova-container #cordova, .skills-grid #cordova-container .master-container:hover #cordova, .skills-grid #html-container:hover #cordova-container #cordova, .skills-grid #cordova-container #html-container:hover #cordova, .skills-grid #sass-container:hover #cordova-container #cordova, .skills-grid #cordova-container #sass-container:hover #cordova, .skills-grid #jquery-container:hover #cordova-container #cordova, .skills-grid #cordova-container #jquery-container:hover #cordova, .skills-grid #php-container:hover #cordova-container #cordova, .skills-grid #cordova-container #php-container:hover #cordova, .skills-grid #ai-container:hover #cordova-container #cordova, .skills-grid #cordova-container #ai-container:hover #cordova, .skills-grid #js-container:hover #cordova-container #cordova, .skills-grid #cordova-container #js-container:hover #cordova, .skills-grid #angular-container:hover #cordova-container #cordova, .skills-grid #cordova-container #angular-container:hover #cordova, .skills-grid #mysql-container:hover #cordova-container #cordova, .skills-grid #cordova-container #mysql-container:hover #cordova, .skills-grid #git-container:hover #cordova-container #cordova, .skills-grid #cordova-container #git-container:hover #cordova, .skills-grid #ps-container:hover #cordova-container #cordova, .skills-grid #cordova-container #ps-container:hover #cordova, .skills-grid #cordova-container:hover #cordova, .skills-grid #java-container:hover #cordova-container #cordova, .skills-grid #cordova-container #java-container:hover #cordova, .skills-grid #laravel-container:hover #cordova-container #cordova, .skills-grid #cordova-container #laravel-container:hover #cordova, .skills-grid #swift-container:hover #cordova-container #cordova, .skills-grid #cordova-container #swift-container:hover #cordova, .skills-grid #android-container:hover #cordova-container #cordova, .skills-grid #cordova-container #android-container:hover #cordova, .skills-grid .master-container:hover #java-container #java, .skills-grid #java-container .master-container:hover #java, .skills-grid #html-container:hover #java-container #java, .skills-grid #java-container #html-container:hover #java, .skills-grid #sass-container:hover #java-container #java, .skills-grid #java-container #sass-container:hover #java, .skills-grid #jquery-container:hover #java-container #java, .skills-grid #java-container #jquery-container:hover #java, .skills-grid #php-container:hover #java-container #java, .skills-grid #java-container #php-container:hover #java, .skills-grid #ai-container:hover #java-container #java, .skills-grid #java-container #ai-container:hover #java, .skills-grid #js-container:hover #java-container #java, .skills-grid #java-container #js-container:hover #java, .skills-grid #angular-container:hover #java-container #java, .skills-grid #java-container #angular-container:hover #java, .skills-grid #mysql-container:hover #java-container #java, .skills-grid #java-container #mysql-container:hover #java, .skills-grid #git-container:hover #java-container #java, .skills-grid #java-container #git-container:hover #java, .skills-grid #ps-container:hover #java-container #java, .skills-grid #java-container #ps-container:hover #java, .skills-grid #cordova-container:hover #java-container #java, .skills-grid #java-container #cordova-container:hover #java, .skills-grid #java-container:hover #java, .skills-grid #laravel-container:hover #java-container #java, .skills-grid #java-container #laravel-container:hover #java, .skills-grid #swift-container:hover #java-container #java, .skills-grid #java-container #swift-container:hover #java, .skills-grid #android-container:hover #java-container #java, .skills-grid #java-container #android-container:hover #java, .skills-grid .master-container:hover #laravel-container #laravel, .skills-grid #laravel-container .master-container:hover #laravel, .skills-grid #html-container:hover #laravel-container #laravel, .skills-grid #laravel-container #html-container:hover #laravel, .skills-grid #sass-container:hover #laravel-container #laravel, .skills-grid #laravel-container #sass-container:hover #laravel, .skills-grid #jquery-container:hover #laravel-container #laravel, .skills-grid #laravel-container #jquery-container:hover #laravel, .skills-grid #php-container:hover #laravel-container #laravel, .skills-grid #laravel-container #php-container:hover #laravel, .skills-grid #ai-container:hover #laravel-container #laravel, .skills-grid #laravel-container #ai-container:hover #laravel, .skills-grid #js-container:hover #laravel-container #laravel, .skills-grid #laravel-container #js-container:hover #laravel, .skills-grid #angular-container:hover #laravel-container #laravel, .skills-grid #laravel-container #angular-container:hover #laravel, .skills-grid #mysql-container:hover #laravel-container #laravel, .skills-grid #laravel-container #mysql-container:hover #laravel, .skills-grid #git-container:hover #laravel-container #laravel, .skills-grid #laravel-container #git-container:hover #laravel, .skills-grid #ps-container:hover #laravel-container #laravel, .skills-grid #laravel-container #ps-container:hover #laravel, .skills-grid #cordova-container:hover #laravel-container #laravel, .skills-grid #laravel-container #cordova-container:hover #laravel, .skills-grid #java-container:hover #laravel-container #laravel, .skills-grid #laravel-container #java-container:hover #laravel, .skills-grid #laravel-container:hover #laravel, .skills-grid #swift-container:hover #laravel-container #laravel, .skills-grid #laravel-container #swift-container:hover #laravel, .skills-grid #android-container:hover #laravel-container #laravel, .skills-grid #laravel-container #android-container:hover #laravel, .skills-grid .master-container:hover #swift-container #swift, .skills-grid #swift-container .master-container:hover #swift, .skills-grid #html-container:hover #swift-container #swift, .skills-grid #swift-container #html-container:hover #swift, .skills-grid #sass-container:hover #swift-container #swift, .skills-grid #swift-container #sass-container:hover #swift, .skills-grid #jquery-container:hover #swift-container #swift, .skills-grid #swift-container #jquery-container:hover #swift, .skills-grid #php-container:hover #swift-container #swift, .skills-grid #swift-container #php-container:hover #swift, .skills-grid #ai-container:hover #swift-container #swift, .skills-grid #swift-container #ai-container:hover #swift, .skills-grid #js-container:hover #swift-container #swift, .skills-grid #swift-container #js-container:hover #swift, .skills-grid #angular-container:hover #swift-container #swift, .skills-grid #swift-container #angular-container:hover #swift, .skills-grid #mysql-container:hover #swift-container #swift, .skills-grid #swift-container #mysql-container:hover #swift, .skills-grid #git-container:hover #swift-container #swift, .skills-grid #swift-container #git-container:hover #swift, .skills-grid #ps-container:hover #swift-container #swift, .skills-grid #swift-container #ps-container:hover #swift, .skills-grid #cordova-container:hover #swift-container #swift, .skills-grid #swift-container #cordova-container:hover #swift, .skills-grid #java-container:hover #swift-container #swift, .skills-grid #swift-container #java-container:hover #swift, .skills-grid #laravel-container:hover #swift-container #swift, .skills-grid #swift-container #laravel-container:hover #swift, .skills-grid #swift-container:hover #swift, .skills-grid #android-container:hover #swift-container #swift, .skills-grid #swift-container #android-container:hover #swift, .skills-grid .master-container:hover #android-container #android, .skills-grid #android-container .master-container:hover #android, .skills-grid #html-container:hover #android-container #android, .skills-grid #android-container #html-container:hover #android, .skills-grid #sass-container:hover #android-container #android, .skills-grid #android-container #sass-container:hover #android, .skills-grid #jquery-container:hover #android-container #android, .skills-grid #android-container #jquery-container:hover #android, .skills-grid #php-container:hover #android-container #android, .skills-grid #android-container #php-container:hover #android, .skills-grid #ai-container:hover #android-container #android, .skills-grid #android-container #ai-container:hover #android, .skills-grid #js-container:hover #android-container #android, .skills-grid #android-container #js-container:hover #android, .skills-grid #angular-container:hover #android-container #android, .skills-grid #android-container #angular-container:hover #android, .skills-grid #mysql-container:hover #android-container #android, .skills-grid #android-container #mysql-container:hover #android, .skills-grid #git-container:hover #android-container #android, .skills-grid #android-container #git-container:hover #android, .skills-grid #ps-container:hover #android-container #android, .skills-grid #android-container #ps-container:hover #android, .skills-grid #cordova-container:hover #android-container #android, .skills-grid #android-container #cordova-container:hover #android, .skills-grid #java-container:hover #android-container #android, .skills-grid #android-container #java-container:hover #android, .skills-grid #laravel-container:hover #android-container #android, .skills-grid #android-container #laravel-container:hover #android, .skills-grid #swift-container:hover #android-container #android, .skills-grid #android-container #swift-container:hover #android, .skills-grid #android-container:hover #android {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
   transform: scale(1.2);
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -ms-filter: blur(0px);
+  -o-filter: blur(0px);
   filter: blur(0px);
 }
 
-/* line 23, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
-.skills-grid .master-fill, .skills-grid #html-container .fill, .skills-grid #sass-container .fill, .skills-grid #jquery-container .fill, .skills-grid #php-container .fill, .skills-grid #ai-container .fill, .skills-grid #js-container .fill, .skills-grid #angular-container .fill, .skills-grid #mysql-container .fill, .skills-grid #git-container .fill, .skills-grid #ps-container .fill, .skills-grid #cordova-container .fill, .skills-grid #java-container .fill, .skills-grid #laravel-container .fill, .skills-grid #swift-container .fill, .skills-grid #android-container .fill {
+/* line 22, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+.skills-grid .master-container .level, .skills-grid #html-container .level, .skills-grid #sass-container .level, .skills-grid #jquery-container .level, .skills-grid #php-container .level, .skills-grid #ai-container .level, .skills-grid #js-container .level, .skills-grid #angular-container .level, .skills-grid #mysql-container .level, .skills-grid #git-container .level, .skills-grid #ps-container .level, .skills-grid #cordova-container .level, .skills-grid #java-container .level, .skills-grid #laravel-container .level, .skills-grid #swift-container .level, .skills-grid #android-container .level {
+  background: #131819;
+  position: absolute;
+  height: 15.4em;
+  top: 115%;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+/* line 30, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+.skills-grid .master-container .level .level-value, .skills-grid #html-container .level .level-value, .skills-grid #sass-container .level .level-value, .skills-grid #jquery-container .level .level-value, .skills-grid #php-container .level .level-value, .skills-grid #ai-container .level .level-value, .skills-grid #js-container .level .level-value, .skills-grid #angular-container .level .level-value, .skills-grid #mysql-container .level .level-value, .skills-grid #git-container .level .level-value, .skills-grid #ps-container .level .level-value, .skills-grid #cordova-container .level .level-value, .skills-grid #java-container .level .level-value, .skills-grid #laravel-container .level .level-value, .skills-grid #swift-container .level .level-value, .skills-grid #android-container .level .level-value {
+  font-family: "bebasRegular";
+  color: #9e2525;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0 0.2em;
+  position: relative;
+  top: -10%;
+  background: #eef3f5;
+}
+
+/* line 42, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+.skills-grid .master-container .fill, .skills-grid #html-container .fill, .skills-grid #sass-container .fill, .skills-grid #jquery-container .fill, .skills-grid #php-container .fill, .skills-grid #ai-container .fill, .skills-grid #js-container .fill, .skills-grid #angular-container .fill, .skills-grid #mysql-container .fill, .skills-grid #git-container .fill, .skills-grid #ps-container .fill, .skills-grid #cordova-container .fill, .skills-grid #java-container .fill, .skills-grid #laravel-container .fill, .skills-grid #swift-container .fill, .skills-grid #android-container .fill {
   background: #eef3f5;
   position: absolute;
   height: 7.7em;
@@ -62,44 +94,82 @@
   opacity: 0.9;
 }
 
-/* line 34, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
-.skills-grid .master-fill-text, .skills-grid #html-container .fill h1, .skills-grid #sass-container .fill h1, .skills-grid #jquery-container .fill h1, .skills-grid #php-container .fill h1, .skills-grid #ai-container .fill h1, .skills-grid #js-container .fill h1, .skills-grid #angular-container .fill h1, .skills-grid #mysql-container .fill h1, .skills-grid #git-container .fill h1, .skills-grid #ps-container .fill h1, .skills-grid #cordova-container .fill h1, .skills-grid #java-container .fill h1, .skills-grid #laravel-container .fill h1, .skills-grid #swift-container .fill h1, .skills-grid #android-container .fill h1 {
+/* line 52, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+.skills-grid .master-container .fill h1, .skills-grid #html-container .fill h1, .skills-grid #sass-container .fill h1, .skills-grid #jquery-container .fill h1, .skills-grid #php-container .fill h1, .skills-grid #ai-container .fill h1, .skills-grid #js-container .fill h1, .skills-grid #angular-container .fill h1, .skills-grid #mysql-container .fill h1, .skills-grid #git-container .fill h1, .skills-grid #ps-container .fill h1, .skills-grid #cordova-container .fill h1, .skills-grid #java-container .fill h1, .skills-grid #laravel-container .fill h1, .skills-grid #swift-container .fill h1, .skills-grid #android-container .fill h1 {
   text-align: center;
   font-size: 6vmin;
   font-family: "bebasBook";
 }
 
-/* line 49, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 60, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid .master-content, .skills-grid #html-container #html, .skills-grid #sass-container #sass, .skills-grid #jquery-container #jquery, .skills-grid #php-container #php, .skills-grid #ai-container #ai, .skills-grid #js-container #js, .skills-grid #angular-container #angular, .skills-grid #mysql-container #mysql, .skills-grid #git-container #git, .skills-grid #ps-container #ps, .skills-grid #cordova-container #cordova, .skills-grid #java-container #java, .skills-grid #laravel-container #laravel, .skills-grid #swift-container #swift, .skills-grid #android-container #android {
+  /*centering stuff*/
   position: absolute;
   margin: auto;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  transition: all 1s;
   overflow: hidden;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   z-index: 0;
   cursor: pointer;
-  filter: blur(3px);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
   transition: all 1s;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -ms-filter: blur(3px);
+  -o-filter: blur(3px);
+  filter: blur(3px);
 }
 
-/* line 68, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 79, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+.skills-grid .master-interests, .skills-grid #cordova-container .fill, .skills-grid #laravel-container .fill, .skills-grid #swift-container .fill {
+  background: #131819;
+}
+
+/* line 81, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+.skills-grid .master-interests h1, .skills-grid #cordova-container .fill h1, .skills-grid #laravel-container .fill h1, .skills-grid #swift-container .fill h1 {
+  color: #eef3f5;
+}
+
+/* line 86, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+.skills-grid .master-intests-description, .skills-grid #cordova-container .desc, .skills-grid #laravel-container .desc, .skills-grid #swift-container .desc {
+  position: absolute;
+  height: 7.7em;
+  width: 100%;
+  background: #131819;
+  opacity: .9;
+  top: -100%;
+  z-index: 1;
+}
+
+/* line 94, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+.skills-grid .master-intests-description h1, .skills-grid #cordova-container .desc h1, .skills-grid #laravel-container .desc h1, .skills-grid #swift-container .desc h1 {
+  color: #eef3f5;
+  font-size: 3vmin;
+  font-family: "bebasBook";
+  text-align: center;
+  z-index: 1;
+}
+
+/* line 103, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid .larger, .skills-grid #html-container, .skills-grid #sass-container, .skills-grid #jquery-container, .skills-grid #php-container, .skills-grid #ai-container {
   height: 15.4em;
   width: 40%;
 }
 
-/* line 73, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 108, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid .larger-fill, .skills-grid #html-container .fill, .skills-grid #sass-container .fill, .skills-grid #jquery-container .fill, .skills-grid #php-container .fill, .skills-grid #ai-container .fill {
   height: 15.4em;
 }
 
-/* line 77, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 112, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #html-container {
   -webkit-animation-delay: 0.1s;
   -moz-animation-delay: 0.1s;
@@ -108,12 +178,12 @@
   animation-delay: 0.1s;
 }
 
-/* line 89, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 120, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #html-container #html {
   background-image: url("../img/svg/logo/htmlcss.svg");
 }
 
-/* line 95, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 126, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #sass-container {
   -webkit-animation-delay: 0.2s;
   -moz-animation-delay: 0.2s;
@@ -122,12 +192,12 @@
   animation-delay: 0.2s;
 }
 
-/* line 107, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 134, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #sass-container #sass {
   background-image: url("../img/svg/logo/sass.svg");
 }
 
-/* line 113, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 140, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #jquery-container {
   -webkit-animation-delay: 0.3s;
   -moz-animation-delay: 0.3s;
@@ -136,12 +206,12 @@
   animation-delay: 0.3s;
 }
 
-/* line 125, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 148, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #jquery-container #jquery {
   background-image: url("../img/svg/logo/jquery.svg");
 }
 
-/* line 131, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 154, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #php-container {
   -webkit-animation-delay: 0.4s;
   -moz-animation-delay: 0.4s;
@@ -150,12 +220,12 @@
   animation-delay: 0.4s;
 }
 
-/* line 143, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 162, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #php-container #php {
   background-image: url("../img/svg/logo/php.svg");
 }
 
-/* line 149, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 168, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #ai-container {
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
@@ -164,12 +234,12 @@
   animation-delay: 0.5s;
 }
 
-/* line 161, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 176, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #ai-container #ai {
   background-image: url("../img/svg/logo/ai.svg");
 }
 
-/* line 167, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 182, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #js-container {
   -webkit-animation-delay: 0.6s;
   -moz-animation-delay: 0.6s;
@@ -178,12 +248,12 @@
   animation-delay: 0.6s;
 }
 
-/* line 179, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 186, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #js-container #js {
   background-image: url("../img/svg/logo/js.svg");
 }
 
-/* line 185, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 192, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #angular-container {
   -webkit-animation-delay: 0.7s;
   -moz-animation-delay: 0.7s;
@@ -192,12 +262,12 @@
   animation-delay: 0.7s;
 }
 
-/* line 197, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 196, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #angular-container #angular {
   background-image: url("../img/svg/logo/angular.svg");
 }
 
-/* line 203, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 202, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #mysql-container {
   -webkit-animation-delay: 0.8s;
   -moz-animation-delay: 0.8s;
@@ -206,12 +276,12 @@
   animation-delay: 0.8s;
 }
 
-/* line 215, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 206, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #mysql-container #mysql {
   background-image: url("../img/svg/logo/mysql.svg");
 }
 
-/* line 221, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 212, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #git-container {
   -webkit-animation-delay: 0.9s;
   -moz-animation-delay: 0.9s;
@@ -220,12 +290,12 @@
   animation-delay: 0.9s;
 }
 
-/* line 233, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 216, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #git-container #git {
   background-image: url("../img/svg/logo/git.svg");
 }
 
-/* line 239, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 222, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #ps-container {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
@@ -234,12 +304,12 @@
   animation-delay: 1s;
 }
 
-/* line 251, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 226, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #ps-container #ps {
   background-image: url("../img/svg/logo/ps.svg");
 }
 
-/* line 257, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 232, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #cordova-container {
   -webkit-animation-delay: 1.1s;
   -moz-animation-delay: 1.1s;
@@ -248,22 +318,12 @@
   animation-delay: 1.1s;
 }
 
-/* line 261, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
-.skills-grid #cordova-container .fill {
-  background: #131819;
-}
-
-/* line 265, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
-.skills-grid #cordova-container .fill h1 {
-  color: #eef3f5;
-}
-
-/* line 271, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 241, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #cordova-container #cordova {
   background-image: url("../img/svg/logo/cordova.svg");
 }
 
-/* line 277, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 247, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #java-container {
   -webkit-animation-delay: 1.2s;
   -moz-animation-delay: 1.2s;
@@ -272,12 +332,12 @@
   animation-delay: 1.2s;
 }
 
-/* line 289, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 252, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #java-container #java {
   background-image: url("../img/svg/logo/java.svg");
 }
 
-/* line 295, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 258, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #laravel-container {
   -webkit-animation-delay: 1.3s;
   -moz-animation-delay: 1.3s;
@@ -286,22 +346,12 @@
   animation-delay: 1.3s;
 }
 
-/* line 299, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
-.skills-grid #laravel-container .fill {
-  background: #131819;
-}
-
-/* line 303, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
-.skills-grid #laravel-container .fill h1 {
-  color: #eef3f5;
-}
-
-/* line 309, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 267, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #laravel-container #laravel {
   background-image: url("../img/svg/logo/laravel.svg");
 }
 
-/* line 315, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 273, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #swift-container {
   -webkit-animation-delay: 1.4s;
   -moz-animation-delay: 1.4s;
@@ -310,22 +360,12 @@
   animation-delay: 1.4s;
 }
 
-/* line 319, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
-.skills-grid #swift-container .fill {
-  background: #131819;
-}
-
-/* line 323, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
-.skills-grid #swift-container .fill h1 {
-  color: #eef3f5;
-}
-
-/* line 329, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 282, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #swift-container #swift {
   background-image: url("../img/svg/logo/swift.svg");
 }
 
-/* line 335, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 288, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #android-container {
   -webkit-animation-delay: 1.5s;
   -moz-animation-delay: 1.5s;
@@ -334,7 +374,7 @@
   animation-delay: 1.5s;
 }
 
-/* line 347, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 292, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #android-container #android {
   background-image: url("../img/svg/logo/android.svg");
 }
@@ -348,57 +388,61 @@
   width: 50px;
   cursor: pointer;
   z-index: 100;
+  -webkit-transition: opacity 1s ease;
   transition: opacity 1s ease;
-  opacity: .3;
+  opacity: 0.3;
 }
 
-/* line 12, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 13, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .button_container:hover {
   opacity: 1;
 }
 
-/* line 17, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 18, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .button_container.active .top {
+  -webkit-transform: translateY(10px) translateX(0) rotate(45deg);
   transform: translateY(10px) translateX(0) rotate(45deg);
   background: #9e2525;
 }
 
-/* line 21, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 24, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .button_container.active .middle {
   opacity: 0;
   background: #9e2525;
 }
 
-/* line 25, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 29, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .button_container.active .bottom {
+  -webkit-transform: translateY(-10px) translateX(0) rotate(-45deg);
   transform: translateY(-10px) translateX(0) rotate(-45deg);
   background: #9e2525;
 }
 
-/* line 31, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 36, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .button_container span {
   background: #eef3f5;
   border: none;
   height: 5px;
   width: 100%;
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 0;
-  transition: all .35s ease;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
   cursor: pointer;
 }
 
-/* line 42, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 48, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .button_container span:nth-of-type(2) {
   top: 10px;
 }
 
-/* line 46, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 52, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .button_container span:nth-of-type(3) {
   top: 20px;
 }
 
-/* line 52, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 58, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .overlay {
   position: fixed;
   top: 0;
@@ -407,11 +451,12 @@
   height: 100%;
   opacity: 1;
   visibility: hidden;
-  transition: opacity .35s, visibility .35s, width .35s;
+  -webkit-transition: opacity 0.35s, visibility 0.35s, width 0.35s;
+  transition: opacity 0.35s, visibility 0.35s, width 0.35s;
   z-index: 50;
 }
 
-/* line 63, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 70, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .overlay:before {
   content: '';
   background: #eef3f5;
@@ -420,10 +465,11 @@
   width: 50%;
   height: 100%;
   position: absolute;
-  transition: left .35s ease;
+  -webkit-transition: left 0.35s ease;
+  transition: left 0.35s ease;
 }
 
-/* line 74, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 82, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .overlay:after {
   content: '';
   background: #eef3f5;
@@ -432,52 +478,59 @@
   width: 50%;
   height: 100%;
   position: absolute;
-  transition: all .35s ease;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
 
-/* line 85, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 94, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .overlay.open {
-  opacity: .9;
+  opacity: 0.9;
   visibility: visible;
   height: 100%;
 }
 
-/* line 90, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 99, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .overlay.open:before {
   left: 0;
 }
 
-/* line 94, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 103, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .overlay.open:after {
   right: 0;
 }
 
-/* line 98, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 107, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .overlay.open li {
-  animation: fadeInRight .5s ease forwards;
-  animation-delay: .35s;
-}
-
-/* line 102, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
-.overlay.open li:nth-of-type(2) {
-  animation-delay: .45s;
-}
-
-/* line 105, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
-.overlay.open li:nth-of-type(3) {
-  animation-delay: .55s;
-}
-
-/* line 108, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
-.overlay.open li:nth-of-type(4) {
-  animation-delay: .65s;
+  -webkit-animation: fadeInRight 0.5s ease forwards;
+  animation: fadeInRight 0.5s ease forwards;
+  -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s;
 }
 
 /* line 113, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+.overlay.open li:nth-of-type(2) {
+  -webkit-animation-delay: 0.45s;
+  animation-delay: 0.45s;
+}
+
+/* line 118, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+.overlay.open li:nth-of-type(3) {
+  -webkit-animation-delay: 0.55s;
+  animation-delay: 0.55s;
+}
+
+/* line 123, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+.overlay.open li:nth-of-type(4) {
+  -webkit-animation-delay: 0.65s;
+  animation-delay: 0.65s;
+}
+
+/* line 130, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .overlay nav {
   position: relative;
   height: 70%;
   top: 50%;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   font-size: 50px;
   font-family: "bebasBook";
@@ -486,7 +539,7 @@
   z-index: 100;
 }
 
-/* line 124, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 143, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .overlay ul {
   list-style: none;
   padding: 0;
@@ -496,7 +549,7 @@
   height: 100%;
 }
 
-/* line 132, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 151, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .overlay ul li {
   display: block;
   height: 25%;
@@ -506,7 +559,7 @@
   opacity: 0;
 }
 
-/* line 140, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 159, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .overlay ul li a {
   display: block;
   position: relative;
@@ -515,22 +568,35 @@
   overflow: hidden;
 }
 
-/* line 147, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
-.overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
+/* line 166, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+.overlay ul li a:active:after, .overlay ul li a:focus:after, .overlay ul li a:hover:after {
   width: 100%;
 }
 
-/* line 153, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
+/* line 172, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_fullpagenav.scss */
 .overlay ul li a:after {
   content: '';
   position: absolute;
   bottom: 0;
   left: 50%;
-  width: 0%;
+  width: 0;
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   height: 3px;
   background: #131819;
-  transition: .35s;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
 }
 
 @keyframes fadeInRight {
@@ -592,33 +658,55 @@
   }
 }
 
-/* line 23, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 22, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 *::-webkit-scrollbar {
   width: 0.4em;
   height: 0.4em;
   background: #131819;
 }
 
-/* line 29, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 28, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 *::-webkit-scrollbar-thumb {
+  opacity: 0.7;
   background: #9e2525;
-  opacity: .7;
 }
 
-/* line 34, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 33, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 *::selection {
-  color: #9e2525;
   opacity: 0.5;
+  color: #9e2525;
 }
 
-/* line 42, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 41, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 #intro-section {
   overflow: hidden;
-  background: #131819;
   text-align: center;
+  background: #131819;
 }
 
-/* line 48, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 46, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+#intro-section .scroll-down {
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 0 2em;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+
+/* line 57, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+#intro-section .scroll-down #triangle {
+  width: 0;
+  height: 0;
+  border-top: 30px solid #eef3f5;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+}
+
+/* line 67, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 #skills-section {
   z-index: 1;
   background: #131819;
@@ -626,17 +714,17 @@
   background-size: contain;
 }
 
-/* line 54, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 73, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 #skills-section #skills-section-content {
   position: absolute;
   top: 0;
+  right: 0;
   bottom: 0;
   left: 0;
-  right: 0;
   margin: auto;
 }
 
-/* line 87, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 105, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .background-image, .top-image, .back-image {
   position: fixed;
   top: 0;
@@ -644,94 +732,94 @@
   height: 100%;
 }
 
-/* line 94, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 112, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .top-image {
   z-index: 1;
   background: url("../img/svg/bg_dynamic.svg") no-repeat -25px -50px;
   background-size: cover;
 }
 
-/* line 101, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 119, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .back-image {
   z-index: 0;
   background: url("../img/svg/bg_static.svg") no-repeat -25px -50px;
   background-size: cover;
 }
 
-/* line 111, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 129, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .awesm-header, .awesm-header-dark, .awesm-header-light {
-  display: inline-block;
-  padding: 0 0.5em;
   font-family: "bebasBook";
   font-size: 8vmin;
   line-height: 1em;
+  display: inline-block;
+  padding: 0 0.5em;
   cursor: pointer;
 }
 
-/* line 120, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 138, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .awesm-header-dark {
+  position: absolute;
+  z-index: 100;
+  opacity: 0;
   color: #eef3f5;
-  opacity: 0;
   background: #131819;
-  z-index: 100;
-  position: absolute;
 }
 
-/* line 129, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 147, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .awesm-header-light {
-  color: #131819;
-  opacity: 0;
-  background: #eef3f5;
-  z-index: 100;
   position: absolute;
+  z-index: 100;
+  opacity: 0;
+  color: #131819;
+  background: #eef3f5;
 }
 
-/* line 141, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 159, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .typed-cursor {
+  font-size: 12vmin;
+  position: relative;
+  top: -5px;
+  opacity: 1;
+  color: #eef3f5;
   -webkit-animation: blink 0.7s infinite;
   -moz-animation: blink 0.7s infinite;
   -ms-animation: blink 0.7s infinite;
   -o-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
-  position: relative;
-  top: -5px;
-  color: #eef3f5;
-  opacity: 1;
-  font-size: 12vmin;
 }
 
-/* line 150, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 168, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 #toTypeString {
   display: none;
 }
 
-/* line 154, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 172, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .centerString {
   display: inline;
   width: 50%;
   margin: 0 auto;
 }
 
-/* line 159, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 177, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .centerString .staticString {
-  color: #eef3f5;
   font-family: "bebasRegular";
   font-size: 25vmin;
   line-height: 80%;
+  color: #eef3f5;
 }
 
-/* line 166, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 184, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .centerString .emp {
   color: #9e2525;
 }
 
-/* line 170, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
+/* line 188, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 .centerString #typedString {
-  display: inline-block;
-  color: #eef3f5;
   font-family: "bebasBook";
   font-size: 12vmin;
   line-height: 80%;
+  display: inline-block;
+  color: #eef3f5;
 }
 
 /*# sourceMappingURL=../css/main.map */
