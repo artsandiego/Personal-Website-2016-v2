@@ -23,9 +23,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- ANGULAR STUFF -->
+    <script type="text/javascript" src="js/vendor/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
 </head>
 
-<body>
+<body ng-app="myApp">
     <!-- ================================ -->
     <div id="toTypeString">
         <p>Aspiring <span class="emp">Front end web developer</span></p>
@@ -72,64 +76,24 @@
         <div class="section" id="skills-section">
             <div class="above"></div>
             <div class="container-fluid">
-                <div id="skills-section-content">
+                <div id="skills-section-content" ng-controller="MainController">
                     <div class="skills-grid">
                         <h1 class="awesm-header-dark">Skills &amp; Interests</h1>
                         <div class="percentPosition"></div>
-                        <div class="skills-grid-item" id="jquery-container"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>jQuery</h1></div><div id="jquery"></div></div>
-                        <div class="skills-grid-item" id="js-container"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>Javascript</h1></div><div id="js"></div></div>
-                        <div class="skills-grid-item" id="java-container"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>Java</h1></div><div id="java"></div></div>
-                        <div class="skills-grid-item" id="php-container"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>PHP (Procedural)</h1></div><div id="php"></div></div>
-                        <div class="skills-grid-item" id="html-container"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>HTML|CSS</h1></div><div id="html"></div></div>
-                        <div class="skills-grid-item" id="laravel-container">
-                            <div class="desc"><h1>I'm new to Laravel, it's intimidating, but hey, web development is life.</h1></div>
-                            <div class="shade"><h1>Laravel</h1></div>
-                            <div id="laravel"></div>
-                        </div>
-                        <div class="skills-grid-item" id="mysql-container"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>MySQLi</h1></div><div id="mysql"></div></div>
-                        <div class="skills-grid-item" id="android-container"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>Android</h1></div><div id="android"></div></div>
-                        <div class="skills-grid-item" id="angular-container"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>Angular JS</h1></div><div id="angular"></div></div>
-                        <div class="skills-grid-item" id="swift-container">
-                            <div class="desc"><h1>Oh Swift, grant me your power. I don't know how to swift but I'm really interested on this one.</h1></div>
-                            <div class="shade"><h1>Swift</h1></div>
-                            <div id="swift"></div>
-                        </div>
-                        <div class="skills-grid-item" id="ps-container"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>Photoshop</h1></div><div id="ps"></div></div>
-                        <div class="skills-grid-item" id="git-container"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>GIT</h1></div><div id="git"></div></div>
-                        <div class="skills-grid-item" id="sass-container"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>SASS</h1></div><div id="sass"></div></div>
-                        <div class="skills-grid-item" id="ai-container"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>Illustrator</h1></div><div id="ai"></div></div>
-                        <div class="skills-grid-item" id="cordova-container">
-                            <div class="desc"><h1>Just started with Cordova and Ionic, I'm crying right now, such beauty.</h1></div>
-                            <div class="shade"><h1>Cordova</h1></div><div id="cordova"></div>
-                        </div>
+                        <div ng-cloak ng-repeat="skillA in skillsA" class="skills-grid-item" id="{{ skillA.container }}"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>{{skillA.title}}</h1></div><div id="{{ skillA.content }}"></div></div>
+                        <div class="skills-grid-item" id="laravel-container"><div class="desc"><h1>I'm new to Laravel, it's intimidating, but hey, web development is life.</h1></div><div class="shade"><h1>Laravel</h1></div><div id="laravel"></div></div>
+                        <div ng-cloak ng-repeat="skillB in skillsB" class="skills-grid-item" id="{{ skillB.container }}"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>{{skillB.title}}</h1></div><div id="{{ skillB.content }}"></div></div>
+                        <div class="skills-grid-item" id="swift-container"><div class="desc"><h1>Oh Swift, grant me your power. I don't know how to swift but I'm really interested on this one.</h1></div><div class="shade"><h1>Swift</h1></div><div id="swift"></div></div>
+                        <div ng-cloak ng-repeat="skillC in skillsC" class="skills-grid-item" id="{{ skillC.container }}"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>{{skillC.title}}</h1></div><div id="{{ skillC.content }}"></div></div>
+                        <div class="skills-grid-item" id="cordova-container"><div class="desc"><h1>Just started with Cordova and Ionic, I'm crying right now, such beauty.</h1></div><div class="shade"><h1>Cordova</h1></div><div id="cordova"></div></div>
                     </div>
                     <!-- MOBILE VIEW -->
                     <div class="skills-mobile">
                         <div class="container-fluid">
-                            <div class="row wow animated slideInLeft" id="html-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-fill"></div></div></div>
-                            <div class="row wow animated slideInLeft" id="sass-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-fill"></div></div></div>
-                            <div class="row wow animated slideInLeft" id="jquery-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-fill"></div></div></div>
-                            <div class="row wow animated slideInLeft" id="js-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-fill"></div></div></div>
-                            <div class="row wow animated slideInLeft" id="angular-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-fill"></div></div></div>
-                            <div class="row wow animated slideInLeft" id="php-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-fill"></div></div></div>
-                            <div class="row wow animated slideInLeft" id="mysql-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-fill"></div></div></div>
-                            <div class="row wow animated slideInLeft" id="git-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-fill"></div></div></div>
-                            <div class="row wow animated slideInLeft" id="laravel-mobile">
-                                <div class="col-xs-4 mobile-image"></div>
-                                <div class="col-xs-8 mobile-level"><div class="mobile-desc"><h1>I'm new to Laravel, it's intimidating, but hey, web development is life.</h1></div></div>
-                            </div>
-                            <div class="row wow animated slideInLeft" id="ps-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-fill"></div></div></div>
-                            <div class="row wow animated slideInLeft" id="ai-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-fill"></div></div></div>
-                            <div class="row wow animated slideInLeft" id="swift-mobile">
-                                <div class="col-xs-4 mobile-image"></div>
-                                <div class="col-xs-8 mobile-level"><div class="mobile-desc"><h1>Oh Swift, grant me your power. I don't know how to swift but I'm really interested on this one.</h1></div></div>
-                            </div>
-                            <div class="row wow animated slideInLeft" id="android-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-fill"></div></div></div>
-                            <div class="row wow animated slideInLeft" id="java-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-fill"></div></div></div>
-                            <div class="row wow animated slideInLeft" id="cordova-mobile">
-                                <div class="col-xs-4 mobile-image"></div>
-                                <div class="col-xs-8 mobile-level"><div class="mobile-desc"><h1>Just started with Cordova and Ionic, I'm crying right now, such beauty.</h1></div></div>
-                            </div>
+                            <div ng-cloak ng-repeat="mSkill in mSkills" class="row wow animated slideInLeft" id="{{ mSkill.container }}"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-fill"></div></div></div>
+                            <div class="row wow animated slideInLeft" id="cordova-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-desc"><h1>Just started with Cordova and Ionic, I'm crying right now, such beauty.</h1></div></div></div>
+                            <div class="row wow animated slideInLeft" id="laravel-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-desc"><h1>I'm new to Laravel, it's intimidating, but hey, web development is life.</h1></div></div></div>
+                            <div class="row wow animated slideInLeft" id="swift-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-desc"><h1>Oh Swift, grant me your power. I don't know how to swift but I'm really interested on this one.</h1></div></div></div>
                         </div>
                     </div>
                 </div>
@@ -143,18 +107,17 @@
         </div>
     </div>
 
-    <!-- <script type="text/javascript" src="js/vendor/jquery-3.1.1.min.js"></script> -->
-    <!-- <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script> -->
+    <!-- JQUERY STUFF -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
     <script type="text/javascript" src="js/vendor/isotope.pkgd.min.js"></script>
     <script type="text/javascript" src="js/vendor/wow.min.js"></script>
-    <script type="text/javascript" src="js/vendor/angular.min.js"></script>
     <script type="text/javascript" src="js/vendor/typed.js"></script>
     <script type="text/javascript" src="js/vendor/scrolloverflow.min.js"></script>
     <script type="text/javascript" src="js/vendor/jquery.fullPage.min.js"></script>
     <script type="text/javascript" src="js/vendor/jquery.animateNumber.min.js"></script>
+    <!-- MAIN JS -->
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 
