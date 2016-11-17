@@ -1,9 +1,7 @@
-.skills-mobile{
-
-    // overflow: scroll;
+.skills-mobile {
     background: $dark;
 
-    .master-image{
+    .master-image {
         background: $light;
         height: $masterHeight;
         background-position: center;
@@ -12,20 +10,22 @@
         margin-bottom: 0.2em;
     }
 
-    .master-level{
+    .master-level {
         background: $light;
         height: $masterHeight;
-        .mobile-fill{
+
+        .mobile-fill {
             height: $masterHeight;
-            width: 0%;
+            width: 0;
             background: $accent;
             border-right: 5px solid $dark;
         }
     }
 
-    .mobile-desc{
-        opacity: .9;
-        h1{
+    .mobile-desc {
+        opacity: 0.9;
+
+        h1 {
             color: $light;
             font-size: 5vmin;
             font-family: $bBook;
@@ -34,140 +34,169 @@
         }
     }
 
-    #html-mobile{
-        .mobile-image{
+    #html-mobile {
+        .mobile-image {
             @extend .master-image;
             background-image: url($imageHtml);
         }
-        .mobile-level{
+
+        .mobile-level {
             @extend .master-level;
         }
     }
-    #sass-mobile{
-        .mobile-image{
+
+    #sass-mobile {
+        .mobile-image {
             @extend .master-image;
             background-image: url($imageSass);
         }
-        .mobile-level{
+
+        .mobile-level {
             @extend .master-level;
         }
     }
-    #jquery-mobile{
-        .mobile-image{
+
+    #jquery-mobile {
+        .mobile-image {
             @extend .master-image;
             background-image: url($imageJquery);
         }
-        .mobile-level{
+
+        .mobile-level {
             @extend .master-level;
         }
     }
-    #js-mobile{
-        .mobile-image{
+
+    #js-mobile {
+        .mobile-image {
             @extend .master-image;
             background-image: url($imageJs);
         }
-        .mobile-level{
+
+        .mobile-level {
             @extend .master-level;
         }
     }
-    #angular-mobile{
-        .mobile-image{
+
+    #angular-mobile {
+        .mobile-image {
             @extend .master-image;
             background-image: url($imageAngular);
         }
-        .mobile-level{
+
+        .mobile-level {
             @extend .master-level;
         }
     }
-    #php-mobile{
-        .mobile-image{
+
+    #php-mobile {
+        .mobile-image {
             @extend .master-image;
             background-image: url($imagePhp);
         }
-        .mobile-level{
+
+        .mobile-level {
             @extend .master-level;
         }
     }
-    #mysql-mobile{
-        .mobile-image{
+
+    #mysql-mobile {
+        .mobile-image {
             @extend .master-image;
             background-image: url($imageMysql);
         }
-        .mobile-level{
+
+        .mobile-level {
             @extend .master-level;
         }
     }
-    #git-mobile{
-        .mobile-image{
+
+    #git-mobile {
+        .mobile-image {
             @extend .master-image;
             background-image: url($imageGit);
         }
-        .mobile-level{
+
+        .mobile-level {
             @extend .master-level;
         }
     }
-    #ai-mobile{
-        .mobile-image{
+
+    #ai-mobile {
+        .mobile-image {
             @extend .master-image;
             background-image: url($imageAi);
         }
-        .mobile-level{
+
+        .mobile-level {
             @extend .master-level;
         }
     }
-    #ps-mobile{
-        .mobile-image{
+
+    #ps-mobile {
+        .mobile-image {
             @extend .master-image;
             background-image: url($imagePs);
         }
-        .mobile-level{
+
+        .mobile-level {
             @extend .master-level;
         }
     }
-    #android-mobile{
-        .mobile-image{
+
+    #android-mobile {
+        .mobile-image {
             @extend .master-image;
             background-image: url($imageAndroid);
         }
-        .mobile-level{
+
+        .mobile-level {
             @extend .master-level;
         }
     }
-    #java-mobile{
-        .mobile-image{
+
+    #java-mobile {
+        .mobile-image {
             @extend .master-image;
             background-image: url($imageJava);
         }
-        .mobile-level{
+
+        .mobile-level {
             @extend .master-level;
         }
     }
-    #laravel-mobile{
-        .mobile-image{
+
+    #laravel-mobile {
+        .mobile-image {
             @extend .master-image;
             background-image: url($imageLaravel);
         }
-        .mobile-level{
+
+        .mobile-level {
             @extend .master-level;
             background: $dark;
         }
     }
-    #cordova-mobile{
-        .mobile-image{
+
+    #cordova-mobile {
+        .mobile-image {
             @extend .master-image;
             background-image: url($imageCordova);
         }
-        .mobile-level{
+
+        .mobile-level {
             @extend .master-level;
             background: $dark;
         }
     }
-    #swift-mobile{
-        .mobile-image{
+
+    #swift-mobile {
+        .mobile-image {
             @extend .master-image;
             background-image: url($imageSwift);
         }
-        .mobile-level{
+
+        .mobile-level {
             @extend .master-level;
             background: $dark;
         }

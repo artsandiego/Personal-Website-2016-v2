@@ -1,5 +1,8 @@
 var app = angular.module('myApp', []);
 app.controller('MainController', function($scope){
+    $scope.laravelDescription = 'I will study Laravel soon because Web dev is life.';
+    $scope.cordovaDescription = 'Tried using cordova and ionic, such beauty.';
+    $scope.swiftDescription = 'I haven\'t tried Swift before but I\'m willing to.';
     $scope.skillsA = [{
         title: 'jQuery',
         container: 'jquery-container',

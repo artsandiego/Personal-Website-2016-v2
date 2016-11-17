@@ -33,23 +33,22 @@ $(document).ready(function() {
     // FULL PAGE JS
     // ===============================
     $('#fullpage').fullpage({
-        anchors: ['intro', 'skills'],
-        fitToSection: false,
+        anchors: ['intro', 'skills', 'projects'],
+        fitToSection: true,
         loopBottom: true,
         scrollBar: true,
         // verticalCentered: false,
-        normalScrollElements: '#skills-section-content',
+        normalScrollElements: '.skills-grid, .skills-mobile',
         afterLoad: function(anchorLink) {
             if (anchorLink == 'skills') {
                 var $skillGridChildren = $('.skills-grid').children();
                 $('.awesm-header-dark').addClass('animated fadeInLeftBig');
                 $skillGridChildren.addClass('animated bounceIn');
-                //HEADER ON HIDE DIV AFTER 5 SECONDS
+                //HEADER HIDE DIV AFTER 5 SECONDS
                 setTimeout(function() {
                     $('.awesm-header-dark').removeClass('fadeInLeftBig');
                     $('.awesm-header-dark').addClass('fadeOutLeftBig');
                 }, 5000);
-
             }
         },
     });

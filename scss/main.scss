@@ -70,14 +70,16 @@
     background: $dark;
     background-image: url($imageTop);
     background-size: contain;
+    overflow: hidden;
 
     #skills-section-content {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        margin: auto;
+        // position: absolute;
+        // top: 0;
+        // right: 0;
+        // bottom: 0;
+        // left: 0;
+        // margin: auto;
+        // overflow: scroll;
     }
     // #side-by-side {
     //     position: absolute;
@@ -98,6 +100,10 @@
     //     color: $light;
     //     background: $dark;
     // }
+}
+
+#project-section {
+    background: red;
 }
 // ===============================
 // MOVING BACKGROUND
