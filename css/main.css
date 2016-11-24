@@ -88,7 +88,7 @@
   background: #eef3f5;
 }
 
-/* line 47, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 67, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid .master-container .shade, .skills-grid #html-container .shade, .skills-grid #sass-container .shade, .skills-grid #jquery-container .shade, .skills-grid #php-container .shade, .skills-grid #ai-container .shade, .skills-grid #js-container .shade, .skills-grid #angular-container .shade, .skills-grid #mysql-container .shade, .skills-grid #git-container .shade, .skills-grid #ps-container .shade, .skills-grid #cordova-container .shade, .skills-grid #java-container .shade, .skills-grid #laravel-container .shade, .skills-grid #swift-container .shade, .skills-grid #android-container .shade {
   background: #eef3f5;
   position: absolute;
@@ -105,14 +105,14 @@
   transition: all 1s;
 }
 
-/* line 59, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 79, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid .master-container .shade h1, .skills-grid #html-container .shade h1, .skills-grid #sass-container .shade h1, .skills-grid #jquery-container .shade h1, .skills-grid #php-container .shade h1, .skills-grid #ai-container .shade h1, .skills-grid #js-container .shade h1, .skills-grid #angular-container .shade h1, .skills-grid #mysql-container .shade h1, .skills-grid #git-container .shade h1, .skills-grid #ps-container .shade h1, .skills-grid #cordova-container .shade h1, .skills-grid #java-container .shade h1, .skills-grid #laravel-container .shade h1, .skills-grid #swift-container .shade h1, .skills-grid #android-container .shade h1 {
   text-align: center;
   font-size: 6vmin;
   font-family: "bebasBook";
 }
 
-/* line 67, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 87, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid .master-content, .skills-grid #html-container #html, .skills-grid #sass-container #sass, .skills-grid #jquery-container #jquery, .skills-grid #php-container #php, .skills-grid #ai-container #ai, .skills-grid #js-container #js, .skills-grid #angular-container #angular, .skills-grid #mysql-container #mysql, .skills-grid #git-container #git, .skills-grid #ps-container #ps, .skills-grid #cordova-container #cordova, .skills-grid #java-container #java, .skills-grid #laravel-container #laravel, .skills-grid #swift-container #swift, .skills-grid #android-container #android {
   /*centering stuff*/
   position: absolute;
@@ -139,17 +139,17 @@
   filter: blur(3px);
 }
 
-/* line 86, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 106, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid .master-interests, .skills-grid #cordova-container .shade, .skills-grid #laravel-container .shade, .skills-grid #swift-container .shade {
   background: #131819;
 }
 
-/* line 88, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 108, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid .master-interests h1, .skills-grid #cordova-container .shade h1, .skills-grid #laravel-container .shade h1, .skills-grid #swift-container .shade h1 {
   color: #eef3f5;
 }
 
-/* line 93, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 113, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid .master-intests-description, .skills-grid #cordova-container .desc, .skills-grid #laravel-container .desc, .skills-grid #swift-container .desc {
   position: absolute;
   height: 7.7em;
@@ -160,7 +160,7 @@
   z-index: 1;
 }
 
-/* line 101, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 121, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid .master-intests-description h1, .skills-grid #cordova-container .desc h1, .skills-grid #laravel-container .desc h1, .skills-grid #swift-container .desc h1 {
   font-size: 4vmin;
   margin: 0.2em;
@@ -170,18 +170,18 @@
   z-index: 1;
 }
 
-/* line 111, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 131, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid .larger, .skills-grid #html-container, .skills-grid #sass-container, .skills-grid #jquery-container, .skills-grid #php-container, .skills-grid #ai-container {
   height: 15.4em;
   width: 40%;
 }
 
-/* line 116, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 136, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid .larger-shade, .skills-grid #html-container .shade, .skills-grid #sass-container .shade, .skills-grid #jquery-container .shade, .skills-grid #php-container .shade, .skills-grid #ai-container .shade {
   height: 15.4em;
 }
 
-/* line 120, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 140, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #html-container {
   -webkit-animation-delay: 0.1s;
   -moz-animation-delay: 0.1s;
@@ -190,12 +190,12 @@
   animation-delay: 0.1s;
 }
 
-/* line 128, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 148, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #html-container #html {
   background-image: url("../img/svg/logo/htmlcss.svg");
 }
 
-/* line 134, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 154, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #sass-container {
   -webkit-animation-delay: 0.2s;
   -moz-animation-delay: 0.2s;
@@ -204,12 +204,12 @@
   animation-delay: 0.2s;
 }
 
-/* line 142, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 162, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #sass-container #sass {
   background-image: url("../img/svg/logo/sass.svg");
 }
 
-/* line 148, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 168, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #jquery-container {
   -webkit-animation-delay: 0.3s;
   -moz-animation-delay: 0.3s;
@@ -218,12 +218,12 @@
   animation-delay: 0.3s;
 }
 
-/* line 156, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 176, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #jquery-container #jquery {
   background-image: url("../img/svg/logo/jquery.svg");
 }
 
-/* line 162, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 182, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #php-container {
   -webkit-animation-delay: 0.4s;
   -moz-animation-delay: 0.4s;
@@ -232,12 +232,12 @@
   animation-delay: 0.4s;
 }
 
-/* line 170, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 190, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #php-container #php {
   background-image: url("../img/svg/logo/php.svg");
 }
 
-/* line 176, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 196, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #ai-container {
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
@@ -246,12 +246,12 @@
   animation-delay: 0.5s;
 }
 
-/* line 184, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 204, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #ai-container #ai {
   background-image: url("../img/svg/logo/ai.svg");
 }
 
-/* line 190, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 210, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #js-container {
   -webkit-animation-delay: 0.6s;
   -moz-animation-delay: 0.6s;
@@ -260,12 +260,12 @@
   animation-delay: 0.6s;
 }
 
-/* line 194, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 214, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #js-container #js {
   background-image: url("../img/svg/logo/js.svg");
 }
 
-/* line 200, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 220, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #angular-container {
   -webkit-animation-delay: 0.7s;
   -moz-animation-delay: 0.7s;
@@ -274,12 +274,12 @@
   animation-delay: 0.7s;
 }
 
-/* line 204, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 224, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #angular-container #angular {
   background-image: url("../img/svg/logo/angular.svg");
 }
 
-/* line 210, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 230, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #mysql-container {
   -webkit-animation-delay: 0.8s;
   -moz-animation-delay: 0.8s;
@@ -288,12 +288,12 @@
   animation-delay: 0.8s;
 }
 
-/* line 214, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 234, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #mysql-container #mysql {
   background-image: url("../img/svg/logo/mysql.svg");
 }
 
-/* line 220, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 240, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #git-container {
   -webkit-animation-delay: 0.9s;
   -moz-animation-delay: 0.9s;
@@ -302,12 +302,12 @@
   animation-delay: 0.9s;
 }
 
-/* line 224, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 244, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #git-container #git {
   background-image: url("../img/svg/logo/git.svg");
 }
 
-/* line 230, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 250, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #ps-container {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
@@ -316,12 +316,12 @@
   animation-delay: 1s;
 }
 
-/* line 234, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 254, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #ps-container #ps {
   background-image: url("../img/svg/logo/ps.svg");
 }
 
-/* line 240, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 260, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #cordova-container {
   -webkit-animation-delay: 1.1s;
   -moz-animation-delay: 1.1s;
@@ -330,12 +330,12 @@
   animation-delay: 1.1s;
 }
 
-/* line 249, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 269, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #cordova-container #cordova {
   background-image: url("../img/svg/logo/cordova.svg");
 }
 
-/* line 255, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 275, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #java-container {
   -webkit-animation-delay: 1.2s;
   -moz-animation-delay: 1.2s;
@@ -344,12 +344,12 @@
   animation-delay: 1.2s;
 }
 
-/* line 260, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 280, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #java-container #java {
   background-image: url("../img/svg/logo/java.svg");
 }
 
-/* line 266, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 286, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #laravel-container {
   -webkit-animation-delay: 1.3s;
   -moz-animation-delay: 1.3s;
@@ -358,12 +358,12 @@
   animation-delay: 1.3s;
 }
 
-/* line 275, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 295, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #laravel-container #laravel {
   background-image: url("../img/svg/logo/laravel.svg");
 }
 
-/* line 281, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 301, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #swift-container {
   -webkit-animation-delay: 1.4s;
   -moz-animation-delay: 1.4s;
@@ -372,12 +372,12 @@
   animation-delay: 1.4s;
 }
 
-/* line 290, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 310, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #swift-container #swift {
   background-image: url("../img/svg/logo/swift.svg");
 }
 
-/* line 296, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 316, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #android-container {
   -webkit-animation-delay: 1.5s;
   -moz-animation-delay: 1.5s;
@@ -386,7 +386,7 @@
   animation-delay: 1.5s;
 }
 
-/* line 300, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
+/* line 320, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills.scss */
 .skills-grid #android-container #android {
   background-image: url("../img/svg/logo/android.svg");
 }

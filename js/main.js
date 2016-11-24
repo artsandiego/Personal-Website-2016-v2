@@ -34,7 +34,7 @@ $(document).ready(function() {
     // ===============================
     $('#fullpage').fullpage({
         anchors: ['intro', 'skills', 'projects'],
-        fitToSection: true,
+        fitToSection: false,
         loopBottom: true,
         scrollBar: true,
         // verticalCentered: false,
@@ -100,7 +100,7 @@ $(document).ready(function() {
             }, 1000);
             $(this).find('.level > .level-value').animateNumber({
                 number: levelValue + '%',
-                numberStep: percent_number_step
+                numberStep: percent_number_step,
             }, 1000);
             //DESCRIPTION FOR INTERESTS
             $(this).children('.desc').animate({
@@ -115,7 +115,7 @@ $(document).ready(function() {
             }, 1000);
             $(this).find('.level > .level-value').animateNumber({
                 number: '0%',
-                numberStep: percent_number_step
+                numberStep: percent_number_step,
             }, 1000);
             //DESCRIPTION FOR INTERESTS
             $(this).children('.desc').animate({
