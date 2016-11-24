@@ -75,35 +75,33 @@
         <!-- // =============================== -->
         <div class="section" id="skills-section">
             <div class="above"></div>
-            <!-- <div class="container-fluid"> -->
-                <div id="skills-section-content" ng-controller="MainController">
-                    <div class="skills-grid">
-                        <h1 class="awesm-header-dark">Skills &amp; Interests</h1>
-                        <div class="percentPosition"></div>
-                        <div ng-cloak ng-repeat="skillA in skillsA" class="skills-grid-item" id="{{ skillA.container }}"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>{{skillA.title}}</h1></div><div id="{{ skillA.content }}"></div></div>
-                        <div class="skills-grid-item" id="laravel-container"><div class="desc"><h1>{{ laravelDescription }}</h1></div><div class="shade"><h1>Laravel</h1></div><div id="laravel"></div></div>
-                        <div ng-cloak ng-repeat="skillB in skillsB" class="skills-grid-item" id="{{ skillB.container }}"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>{{skillB.title}}</h1></div><div id="{{ skillB.content }}"></div></div>
-                        <div class="skills-grid-item" id="swift-container"><div class="desc"><h1>{{ swiftDescription }}</h1></div><div class="shade"><h1>Swift</h1></div><div id="swift"></div></div>
-                        <div ng-cloak ng-repeat="skillC in skillsC" class="skills-grid-item" id="{{ skillC.container }}"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>{{skillC.title}}</h1></div><div id="{{ skillC.content }}"></div></div>
-                        <div class="skills-grid-item" id="cordova-container"><div class="desc"><h1>{{ cordovaDescription }}</h1></div><div class="shade"><h1>Cordova</h1></div><div id="cordova"></div></div>
-                    </div>
-                    <!-- MOBILE VIEW -->
-                    <div class="skills-mobile">
-                        <div class="container-fluid">
-                            <div ng-cloak ng-repeat="mSkill in mSkills" class="row wow animated flipInX" id="{{ mSkill.container }}"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-fill"></div></div></div>
-                            <div class="row wow animated flipInX" id="cordova-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-desc"><h1>{{ cordovaDescription }}</h1></div></div></div>
-                            <div class="row wow animated flipInX" id="laravel-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-desc"><h1>{{ laravelDescription }}</h1></div></div></div>
-                            <div class="row wow animated flipInX" id="swift-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-desc"><h1>{{ swiftDescription }}</h1></div></div></div>
-                        </div>
+            <div id="skills-section-content" ng-controller="MainController">
+                <div class="skills-grid">
+                    <h1 class="awesm-header-dark">Skills &amp; Interests</h1>
+                    <div class="percentPosition"></div>
+                    <div ng-cloak ng-repeat="skillA in skillsA" class="skills-grid-item" id="{{ skillA.container }}"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>{{skillA.title}}</h1></div><div id="{{ skillA.content }}"></div></div>
+                    <div class="skills-grid-item" id="laravel-container"><div class="desc"><h1>{{ laravelDescription }}</h1></div><div class="shade"><h1>Laravel</h1></div><div id="laravel"></div></div>
+                    <div ng-cloak ng-repeat="skillB in skillsB" class="skills-grid-item" id="{{ skillB.container }}"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>{{skillB.title}}</h1></div><div id="{{ skillB.content }}"></div></div>
+                    <div class="skills-grid-item" id="swift-container"><div class="desc"><h1>{{ swiftDescription }}</h1></div><div class="shade"><h1>Swift</h1></div><div id="swift"></div></div>
+                    <div ng-cloak ng-repeat="skillC in skillsC" class="skills-grid-item" id="{{ skillC.container }}"><div class="level"><span class="level-value">0 %</span></div><div class="shade"><h1>{{skillC.title}}</h1></div><div id="{{ skillC.content }}"></div></div>
+                    <div class="skills-grid-item" id="cordova-container"><div class="desc"><h1>{{ cordovaDescription }}</h1></div><div class="shade"><h1>Cordova</h1></div><div id="cordova"></div></div>
+                </div>
+                <!-- MOBILE VIEW -->
+                <div class="skills-mobile">
+                    <div class="container-fluid">
+                        <div ng-cloak ng-repeat="mSkill in mSkills" class="row wow animated flipInX" id="{{ mSkill.container }}"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-fill"></div></div></div>
+                        <div class="row wow animated flipInX" id="cordova-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-desc"><h1>{{ cordovaDescription }}</h1></div></div></div>
+                        <div class="row wow animated flipInX" id="laravel-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-desc"><h1>{{ laravelDescription }}</h1></div></div></div>
+                        <div class="row wow animated flipInX" id="swift-mobile"><div class="col-xs-4 mobile-image"></div><div class="col-xs-8 mobile-level"><div class="mobile-desc"><h1>{{ swiftDescription }}</h1></div></div></div>
                     </div>
                 </div>
-            <!-- </div> -->
+            </div>
         </div>
         <!-- // =============================== -->
         <!-- // PROJECT SECTION -->
         <!-- // =============================== -->
         <div class="section" id="project-section">
-
+            <div class="above"></div>
         </div>
     </div>
 

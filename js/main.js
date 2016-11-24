@@ -41,7 +41,7 @@ $(document).ready(function() {
         normalScrollElements: '.skills-grid, .skills-mobile',
         afterLoad: function(anchorLink) {
             if (anchorLink == 'skills') {
-                var $skillGridChildren = $('.skills-grid').children();
+                var $skillGridChildren = $('.skills-grid').children().slice(2);
                 $('.awesm-header-dark').addClass('animated fadeInLeftBig');
                 $skillGridChildren.addClass('animated bounceIn');
                 //HEADER HIDE DIV AFTER 5 SECONDS

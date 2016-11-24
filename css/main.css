@@ -394,9 +394,10 @@
 /* line 1, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile {
   background: #131819;
+  display: none;
 }
 
-/* line 4, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 5, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile .master-image, .skills-mobile #html-mobile .mobile-image, .skills-mobile #sass-mobile .mobile-image, .skills-mobile #jquery-mobile .mobile-image, .skills-mobile #js-mobile .mobile-image, .skills-mobile #angular-mobile .mobile-image, .skills-mobile #php-mobile .mobile-image, .skills-mobile #mysql-mobile .mobile-image, .skills-mobile #git-mobile .mobile-image, .skills-mobile #ai-mobile .mobile-image, .skills-mobile #ps-mobile .mobile-image, .skills-mobile #android-mobile .mobile-image, .skills-mobile #java-mobile .mobile-image, .skills-mobile #laravel-mobile .mobile-image, .skills-mobile #cordova-mobile .mobile-image, .skills-mobile #swift-mobile .mobile-image {
   background: #eef3f5;
   height: 7.7em;
@@ -406,13 +407,13 @@
   margin-bottom: 0.2em;
 }
 
-/* line 13, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 14, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile .master-level, .skills-mobile #html-mobile .mobile-level, .skills-mobile #sass-mobile .mobile-level, .skills-mobile #jquery-mobile .mobile-level, .skills-mobile #js-mobile .mobile-level, .skills-mobile #angular-mobile .mobile-level, .skills-mobile #php-mobile .mobile-level, .skills-mobile #mysql-mobile .mobile-level, .skills-mobile #git-mobile .mobile-level, .skills-mobile #ai-mobile .mobile-level, .skills-mobile #ps-mobile .mobile-level, .skills-mobile #android-mobile .mobile-level, .skills-mobile #java-mobile .mobile-level, .skills-mobile #laravel-mobile .mobile-level, .skills-mobile #cordova-mobile .mobile-level, .skills-mobile #swift-mobile .mobile-level {
   background: #eef3f5;
   height: 7.7em;
 }
 
-/* line 17, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 18, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile .master-level .mobile-fill, .skills-mobile #html-mobile .mobile-level .mobile-fill, .skills-mobile #sass-mobile .mobile-level .mobile-fill, .skills-mobile #jquery-mobile .mobile-level .mobile-fill, .skills-mobile #js-mobile .mobile-level .mobile-fill, .skills-mobile #angular-mobile .mobile-level .mobile-fill, .skills-mobile #php-mobile .mobile-level .mobile-fill, .skills-mobile #mysql-mobile .mobile-level .mobile-fill, .skills-mobile #git-mobile .mobile-level .mobile-fill, .skills-mobile #ai-mobile .mobile-level .mobile-fill, .skills-mobile #ps-mobile .mobile-level .mobile-fill, .skills-mobile #android-mobile .mobile-level .mobile-fill, .skills-mobile #java-mobile .mobile-level .mobile-fill, .skills-mobile #laravel-mobile .mobile-level .mobile-fill, .skills-mobile #cordova-mobile .mobile-level .mobile-fill, .skills-mobile #swift-mobile .mobile-level .mobile-fill {
   height: 7.7em;
   width: 0;
@@ -420,12 +421,12 @@
   border-right: 5px solid #131819;
 }
 
-/* line 25, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 26, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile .mobile-desc {
   opacity: 0.9;
 }
 
-/* line 28, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 29, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile .mobile-desc h1 {
   color: #eef3f5;
   font-size: 5vmin;
@@ -434,92 +435,92 @@
   z-index: 1;
 }
 
-/* line 38, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 39, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #html-mobile .mobile-image {
   background-image: url("../img/svg/logo/htmlcss.svg");
 }
 
-/* line 49, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 50, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #sass-mobile .mobile-image {
   background-image: url("../img/svg/logo/sass.svg");
 }
 
-/* line 60, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 61, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #jquery-mobile .mobile-image {
   background-image: url("../img/svg/logo/jquery.svg");
 }
 
-/* line 71, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 72, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #js-mobile .mobile-image {
   background-image: url("../img/svg/logo/js.svg");
 }
 
-/* line 82, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 83, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #angular-mobile .mobile-image {
   background-image: url("../img/svg/logo/angular.svg");
 }
 
-/* line 93, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 94, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #php-mobile .mobile-image {
   background-image: url("../img/svg/logo/php.svg");
 }
 
-/* line 104, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 105, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #mysql-mobile .mobile-image {
   background-image: url("../img/svg/logo/mysql.svg");
 }
 
-/* line 115, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 116, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #git-mobile .mobile-image {
   background-image: url("../img/svg/logo/git.svg");
 }
 
-/* line 126, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 127, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #ai-mobile .mobile-image {
   background-image: url("../img/svg/logo/ai.svg");
 }
 
-/* line 137, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 138, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #ps-mobile .mobile-image {
   background-image: url("../img/svg/logo/ps.svg");
 }
 
-/* line 148, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 149, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #android-mobile .mobile-image {
   background-image: url("../img/svg/logo/android.svg");
 }
 
-/* line 159, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 160, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #java-mobile .mobile-image {
   background-image: url("../img/svg/logo/java.svg");
 }
 
-/* line 170, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 171, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #laravel-mobile .mobile-image {
   background-image: url("../img/svg/logo/laravel.svg");
 }
 
-/* line 175, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 176, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #laravel-mobile .mobile-level {
   background: #131819;
 }
 
-/* line 182, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 183, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #cordova-mobile .mobile-image {
   background-image: url("../img/svg/logo/cordova.svg");
 }
 
-/* line 187, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 188, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #cordova-mobile .mobile-level {
   background: #131819;
 }
 
-/* line 194, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 195, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #swift-mobile .mobile-image {
   background-image: url("../img/svg/logo/swift.svg");
 }
 
-/* line 199, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
+/* line 200, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/partials/_skills-mobile.scss */
 .skills-mobile #swift-mobile .mobile-level {
   background: #131819;
 }
@@ -862,7 +863,7 @@
 
 /* line 105, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
 #project-section {
-  background: red;
+  background: #131819;
 }
 
 /* line 112, C:/Users/Art/Desktop/Artisawesm/artisawesm/scss/main.scss */
